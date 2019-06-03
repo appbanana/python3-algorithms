@@ -2,13 +2,17 @@ class DynamicArray(object):
 	
 	def __init__(self, capacity=10):
 		self._size = 0  # size
-		self.elements = [None] * capacity
+		self.elements = [None] * (10 if capacity < 10 else capacity)
+	
+	def __str__(self):
+		return f"size: {self._size}, capacity: {len(self.elements)}\n{str(self.elements[:self._size])}"
 	
 	def clear(self):
 		"""
 		清空
 		:return:
 		"""
+		self.elements = [None for _ in self.elements]
 		self._size = 0
 	
 	def size(self):
@@ -39,7 +43,18 @@ class DynamicArray(object):
 		:param element:
 		:return:
 		"""
-		pass
+		self.insert(self._size, element)
+	
+	def add(self, index, element):
+		"""
+		插入元素
+		:param index:
+		:param element:
+		:return:
+		"""
+		self._range_check(index)
+		self.elements[index] = element
+		self._size += 1
 	
 	def get(self, index=0):
 		"""
@@ -47,7 +62,21 @@ class DynamicArray(object):
 		:param index: 索引下标
 		:return:
 		"""
-		pass
+		self._range_check(index)
+		
+		return self.elements[index]
+	
+	def set(self, index, element):
+		"""
+		更新指定位置的值
+		:param index:
+		:param element:
+		:return: 返回原来的值
+		"""
+		self._range_check(index)
+		old_val = self.elements[index]
+		self.elements[index] = element
+		return old_val
 	
 	def remove(self, index=0):
 		"""
@@ -69,13 +98,11 @@ class DynamicArray(object):
 				return index
 		return -1
 	
-	def log(func):
-		def wrapper(*args, **kw):
-			print('call %s():' % func.__name__)
-			return func(*args, **kw)
-		
-		return wrapper
-	
 	def _range_check(self, index):
-		if index < 0 | | index > self._size:
+		"""
+		索引是否越界判断
+		:param index:
+		:return:
+		"""
+		if index < 0 or index >= self._size:
 			raise NameError('数组越界 Index: %d, Size:%d'.format(index, self._size))
