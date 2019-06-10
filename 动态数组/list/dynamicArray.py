@@ -1,8 +1,8 @@
 class DynamicArray(object):
 	
-	def __init__(self, capacity=10):
+	def __init__(self, capacity=5):
 		self._size = 0  # size
-		self.elements = [None] * (10 if capacity < 10 else capacity)
+		self.elements = [None] * (5 if capacity < 5 else capacity)
 	
 	def __str__(self):
 		return f"size: {self._size}, capacity: {len(self.elements)}\n{str(self.elements[:self._size])}"
@@ -45,14 +45,18 @@ class DynamicArray(object):
 		"""
 		self.insert(self._size, element)
 	
-	def add(self, index, element):
+	def insert(self, index, element):
 		"""
 		插入元素
 		:param index:
 		:param element:
 		:return:
 		"""
-		self._range_check(index)
+		print(index, self._size)
+		self._range_check_add(index)
+		self._ensure_capacity(self._size+1)
+		for i in range(self._size - 1, index - 1, -1):
+			self.elements[i + 1] = self.elements[i]
 		self.elements[index] = element
 		self._size += 1
 	
@@ -98,6 +102,20 @@ class DynamicArray(object):
 				return index
 		return -1
 	
+	def _ensure_capacity(self, capacity):
+		"""
+		扩容
+		:param capacity:
+		:return:
+		"""
+		old_len = len(self.elements)
+		if old_len >= capacity:
+			return
+		new_capacity = old_len + old_len >> 1
+		new_data = [None] * new_capacity
+		new_data[:self._size] = self.elements[:self._size]
+		self.elements = new_data
+	
 	def _range_check(self, index):
 		"""
 		索引是否越界判断
@@ -105,4 +123,13 @@ class DynamicArray(object):
 		:return:
 		"""
 		if index < 0 or index >= self._size:
+			raise NameError('数组越界 Index: %d, Size:%d'.format(index, self._size))
+	
+	def _range_check_add(self, index):
+		"""
+		索引是否越界判断
+		:param index:
+		:return:
+		"""
+		if index < 0 or index > self._size:
 			raise NameError('数组越界 Index: %d, Size:%d'.format(index, self._size))
