@@ -1,10 +1,11 @@
-from com.jqc.link.linkList import LinkList
+from com.jqc.single.singleLinkList import SingleLinkList
 from com.jqc.dynamicArray import DynamicArray
+from com.jqc.linkList import LinkList
 
 def test():
 	# test_arr = [1, 2, 3, 6, 5, 4, 9, 8, 7]
 	test_arr = [1, 2, 3, 6, 5, 4, None, 8, 7]
-	link = LinkList()
+	link = SingleLinkList()
 	for item in test_arr:
 		link.add(item)
 	print(link)
@@ -44,5 +45,9 @@ def test2():
 
 
 if __name__ == '__main__':
+	# 测试单链表
 	# test()
-	test2()
+	# 测试封装继承后的动态数组
+	# test2()
+	double_list = LinkList()
+	print(double_list.clear())

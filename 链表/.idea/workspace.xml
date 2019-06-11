@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef09e1f-1188-410c-b9ca-67831802bcbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/链表.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jqc/AbstractList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jqc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jqc/dynamicArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jqc/link/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../动态数组/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组/.idea/test2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../动态数组/.idea/test2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../动态数组/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组/list/dynamicArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/../动态数组/list/dynamicArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../动态数组/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组2/.idea/动态数组2.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/jqc/single/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/jqc/link/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/linkList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/jqc/single/linkList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,17 +19,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="460">
+              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/jqc/linkList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="534">
+              <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/jqc/link/linkList.py">
+        <entry file="file://$PROJECT_DIR$/com/jqc/single/singleLinkList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="39" />
+            <state relative-caret-position="254">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -52,17 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/jqc/abstractList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com/jqc/dynamicArray.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="400">
+              <caret line="47" column="24" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -82,6 +70,7 @@
       <find>__node</find>
       <find>self.__size</find>
       <find>__range_check</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>self._size</replace>
@@ -103,14 +92,17 @@
         <option value="$PROJECT_DIR$/com/jqc/AbstractList.py" />
         <option value="$PROJECT_DIR$/com/jqc/abstractList.py" />
         <option value="$PROJECT_DIR$/com/jqc/link/linkList.py" />
-        <option value="$PROJECT_DIR$/com/main.py" />
         <option value="$PROJECT_DIR$/com/jqc/dynamicArray.py" />
+        <option value="$PROJECT_DIR$/com/jqc/single/linkList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/single/singleLinkList.py" />
+        <option value="$PROJECT_DIR$/com/main.py" />
+        <option value="$PROJECT_DIR$/com/jqc/linkList.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="994" />
-    <option name="y" value="242" />
+    <option name="x" value="1081" />
+    <option name="y" value="238" />
     <option name="width" value="1390" />
     <option name="height" value="1014" />
   </component>
@@ -145,7 +137,7 @@
               <item name="链表" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jqc" type="462c0819:PsiDirectoryNode" />
-              <item name="link" type="462c0819:PsiDirectoryNode" />
+              <item name="single" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="链表" type="b2602c69:ProjectViewProjectNode" />
@@ -172,6 +164,7 @@
       <recent name="$PROJECT_DIR$/com/jqc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com/jqc/single" />
       <recent name="$PROJECT_DIR$/com" />
       <recent name="$PROJECT_DIR$/com/jqc" />
       <recent name="$PROJECT_DIR$" />
@@ -225,23 +218,23 @@
       <updated>1559289536555</updated>
       <workItem from="1560222126473" duration="1685000" />
       <workItem from="1560224114958" duration="107000" />
-      <workItem from="1560224238691" duration="11741000" />
+      <workItem from="1560224238691" duration="15700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13539000" />
+    <option name="totallyTimeSpent" value="17498000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="355" width="1390" height="1014" extended-state="0" />
+    <frame x="1081" y="238" width="1390" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2574184" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2574184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -263,7 +256,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/$array.coverage" NAME="link Coverage Results" MODIFIED="1560242523580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$array.coverage" NAME="link Coverage Results" MODIFIED="1560246667598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/1033253702/builtins.py" />
@@ -292,31 +285,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/abstractList.py">
+    <entry file="file://$PROJECT_DIR$/com/jqc/dynamicArray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
-          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/single/linkList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="460">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/link/linkList.py">
+    <entry file="file://$PROJECT_DIR$/com/jqc/single/singleLinkList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="39" />
+        <state relative-caret-position="254">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/dynamicArray.py">
+    <entry file="file://$PROJECT_DIR$/com/jqc/abstractList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="400">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/linkList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
         </state>
       </provider>
     </entry>
