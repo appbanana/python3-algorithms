@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef09e1f-1188-410c-b9ca-67831802bcbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/jqc/linkList/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jqc/linkList/doubleLinkList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/jqc/linkList.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/jqc/single/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/circleLink/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/jqc/single/singleLinkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/linkList/singleLinkList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../链表/com/jqc/linkList/doubleLinkList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../链表/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/com/jqc/linkList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/com/jqc/single/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../链表/com/jqc/linkList/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/com/jqc/single/singleLinkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/../链表/com/jqc/linkList/singleLinkList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/com/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../链表/com/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../链表的副本/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../链表的副本/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../链表的副本/.idea/vcs.xml" beforeDir="false" />
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            <state relative-caret-position="374">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -49,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/jqc/linkList/singleLinkList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="459">
               <caret line="27" selection-start-line="27" selection-end-line="40" selection-end-column="21" />
             </state>
           </provider>
@@ -58,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/jqc/abstractList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
+            <state relative-caret-position="799">
               <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
             </state>
           </provider>
@@ -126,53 +125,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="02-双链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02-双链表" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="02-双链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02-双链表" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jqc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jqc" type="462c0819:PsiDirectoryNode" />
-              <item name="circleLink" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jqc" type="462c0819:PsiDirectoryNode" />
-              <item name="linkList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/com/jqc/circleLink" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/com/jqc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -242,22 +217,23 @@
       <workItem from="1560222126473" duration="1685000" />
       <workItem from="1560224114958" duration="107000" />
       <workItem from="1560224238691" duration="15916000" />
-      <workItem from="1560306589952" duration="5110000" />
+      <workItem from="1560306589952" duration="4397000" />
+      <workItem from="1560311244395" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22824000" />
+    <option name="totallyTimeSpent" value="22116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="847" y="335" width="1390" height="1014" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2611276" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2648368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -310,17 +286,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/jqc/single/linkList.py" />
-    <entry file="file://$PROJECT_DIR$/com/jqc/linkList/singleLinkList.py">
+    <entry file="file://$PROJECT_DIR$/com/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="27" selection-start-line="27" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/abstractList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        <state relative-caret-position="374">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -331,10 +300,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/main.py">
+    <entry file="file://$PROJECT_DIR$/com/jqc/linkList/singleLinkList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/abstractList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
         </state>
       </provider>
     </entry>
