@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/jqc/queue/queue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+            <state relative-caret-position="401">
+              <caret line="50" column="14" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -212,7 +212,21 @@
               <item name="链表" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jqc" type="462c0819:PsiDirectoryNode" />
-              <item name="circleQueue" type="462c0819:PsiDirectoryNode" />
+              <item name="linkList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jqc" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jqc" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="链表" type="b2602c69:ProjectViewProjectNode" />
@@ -298,15 +312,16 @@
       <workItem from="1560222126473" duration="1685000" />
       <workItem from="1560224114958" duration="107000" />
       <workItem from="1560224238691" duration="15916000" />
-      <workItem from="1560306589952" duration="14175000" />
+      <workItem from="1560306589952" duration="13904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31889000" />
+    <option name="totallyTimeSpent" value="31618000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="973" y="306" width="1390" height="1014" extended-state="0" />
+    <frame x="935" y="310" width="1390" height="1014" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2611276" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -437,8 +452,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com/jqc/queue/queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        <state relative-caret-position="401">
+          <caret line="50" column="14" selection-end-line="54" />
         </state>
       </provider>
     </entry>
