@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef09e1f-1188-410c-b9ca-67831802bcbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/com/jqc/circleLink/doubleCircleLinkList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/jqc/linkList/doubleLinkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/linkList/doubleLinkList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表的副本/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表的副本/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表的副本/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表的副本/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表的副本/.idea/链表.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表的副本/com/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表的副本/com/jqc/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表的副本/com/jqc/link/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表的副本/com/jqc/link/linkList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表的副本/com/main.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="114" column="25" lean-forward="true" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
+            <state relative-caret-position="782">
+              <caret line="124" column="72" selection-start-line="124" selection-start-column="72" selection-end-line="124" selection-end-column="72" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
                 <element signature="e#137#1331#0" />
@@ -148,6 +161,20 @@
             </path>
             <path>
               <item name="链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jqc" type="462c0819:PsiDirectoryNode" />
+              <item name="circleLink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jqc" type="462c0819:PsiDirectoryNode" />
+              <item name="linkList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -230,23 +257,23 @@
       <workItem from="1560222126473" duration="1685000" />
       <workItem from="1560224114958" duration="107000" />
       <workItem from="1560224238691" duration="15916000" />
-      <workItem from="1560306589952" duration="10715000" />
+      <workItem from="1560306589952" duration="10472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28429000" />
+    <option name="totallyTimeSpent" value="28186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="847" y="335" width="1390" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2611276" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2611276" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -343,8 +370,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="114" column="25" lean-forward="true" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
+        <state relative-caret-position="782">
+          <caret line="124" column="72" selection-start-line="124" selection-start-column="72" selection-end-line="124" selection-end-column="72" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
             <element signature="e#137#1331#0" />
