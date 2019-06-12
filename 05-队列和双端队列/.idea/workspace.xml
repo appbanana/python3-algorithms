@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef09e1f-1188-410c-b9ca-67831802bcbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/jqc/queue/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jqc/queue/deque.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jqc/queue/queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jqc/stack/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jqc/stack/stack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组/.idea/test2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组/list/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组/list/dynamicArray.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../动态数组/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/jqc/dynamicArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/dynamicArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../链表/com/jqc/circleQueue/circleDeque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../链表/com/jqc/circleQueue/circleQueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/jqc/queue/deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/queue/deque.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/jqc/queue/queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/queue/queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/jqc/stack/stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/stack/stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../链表/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/com/jqc/queue/deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/../链表/com/jqc/queue/deque.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/com/jqc/queue/queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/../链表/com/jqc/queue/queue.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,29 +22,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-              <folding>
-                <element signature="e#1#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/jqc/stack/stack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="20" selection-start-line="20" selection-end-line="54" selection-end-column="60" />
+            <state relative-caret-position="408">
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/jqc/stack/stack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="27" selection-start-line="27" selection-end-line="32" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/jqc/queue/queue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="50" column="14" selection-end-line="54" />
+            <state relative-caret-position="212">
+              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -62,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/jqc/queue/deque.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+            <state relative-caret-position="391">
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -76,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/jqc/dynamicArray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="1088">
               <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
             </state>
           </provider>
@@ -94,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/jqc/circleLink/doubleCircleLinkList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
+            <state relative-caret-position="2397">
               <caret line="141" column="25" selection-start-line="141" selection-start-column="25" selection-end-line="141" selection-end-column="25" />
             </state>
           </provider>
@@ -103,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/jqc/circleLink/singleCircleLinkList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1640">
+            <state relative-caret-position="1904">
               <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
             </state>
           </provider>
@@ -112,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/jqc/abstractList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="646">
               <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
             </state>
           </provider>
@@ -167,10 +154,10 @@
         <option value="$PROJECT_DIR$/com/jqc/linkList/doubleLinkList.py" />
         <option value="$PROJECT_DIR$/com/jqc/circleLink/doubleCircleLinkList.py" />
         <option value="$PROJECT_DIR$/com/jqc/dynamicArray.py" />
-        <option value="$PROJECT_DIR$/com/jqc/stack/stack.py" />
         <option value="$PROJECT_DIR$/com/main.py" />
-        <option value="$PROJECT_DIR$/com/jqc/queue/deque.py" />
         <option value="$PROJECT_DIR$/com/jqc/queue/queue.py" />
+        <option value="$PROJECT_DIR$/com/jqc/queue/deque.py" />
+        <option value="$PROJECT_DIR$/com/jqc/stack/stack.py" />
       </list>
     </option>
   </component>
@@ -188,54 +175,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="05-队列和双端队列" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05-队列和双端队列" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="05-队列和双端队列" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05-队列和双端队列" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jqc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="05-队列和双端队列" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05-队列和双端队列" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jqc" type="462c0819:PsiDirectoryNode" />
-              <item name="linkList" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="05-队列和双端队列" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05-队列和双端队列" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jqc" type="462c0819:PsiDirectoryNode" />
               <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="05-队列和双端队列" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05-队列和双端队列" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jqc" type="462c0819:PsiDirectoryNode" />
               <item name="stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,17 +289,18 @@
       <workItem from="1560224114958" duration="107000" />
       <workItem from="1560224238691" duration="15916000" />
       <workItem from="1560306589952" duration="13904000" />
+      <workItem from="1560326257804" duration="83000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31618000" />
+    <option name="totallyTimeSpent" value="31701000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="935" y="310" width="1390" height="1014" extended-state="0" />
+    <frame x="973" y="306" width="1390" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2611276" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2648368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -381,43 +358,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/circleLink/singleLinkList.py">
+    <entry file="file://$PROJECT_DIR$/com/jqc/circleLink/singleLinkList.py" />
+    <entry file="file://$PROJECT_DIR$/com/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/abstractList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/circleLink/singleCircleLinkList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1640">
-          <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/circleLink/doubleCircleLinkList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="141" column="25" selection-start-line="141" selection-start-column="25" selection-end-line="141" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/dynamicArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+        <state relative-caret-position="408">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/jqc/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/dynamicArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/jqc/linkList/doubleLinkList.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -426,34 +383,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/stack/stack.py">
+    <entry file="file://$PROJECT_DIR$/com/jqc/circleLink/doubleCircleLinkList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" selection-start-line="20" selection-end-line="54" selection-end-column="60" />
+        <state relative-caret-position="2397">
+          <caret line="141" column="25" selection-start-line="141" selection-start-column="25" selection-end-line="141" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/main.py">
+    <entry file="file://$PROJECT_DIR$/com/jqc/circleLink/singleCircleLinkList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <element signature="e#1#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1904">
+          <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/queue/deque.py">
+    <entry file="file://$PROJECT_DIR$/com/jqc/abstractList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+        <state relative-caret-position="646">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/jqc/queue/queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="50" column="14" selection-end-line="54" />
+        <state relative-caret-position="212">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/queue/deque.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/stack/stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="27" selection-start-line="27" selection-end-line="32" selection-end-column="30" />
         </state>
       </provider>
     </entry>
