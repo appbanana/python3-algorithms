@@ -24,7 +24,7 @@ class Node(object):
 		return string
 
 
-class LinkList(AbstractList):
+class DoubleCircleLinkList(AbstractList):
 	
 	def __init__(self):
 		super().__init__()
@@ -65,25 +65,30 @@ class LinkList(AbstractList):
 			# 尾部添加
 			# 能进到这里，可能是第0个 也可能是添加到最后
 			old_last = self.__last
-			self.__last = Node(old_last, element, None)
+			self.__last = Node(old_last, element, self.__fist)
 			if old_last is None:
 				# 第0个元素 首次添加元素
 				self.__fist = self.__last
+				# 将首节点pre，next均指向自己
+				self.__fist.pre = self.__fist
+				self.__fist.next = self.__fist
 			else:
 				# 在尾部添加节点
 				old_last.next = self.__last
+				# 首节点的pre指向last
+				self.__fist.pre = self.__last
 		else:
 			# 插入某个位置
 			next_node = self.__node(index)
 			pre_node = next_node.pre
 			current = Node(pre_node, element, next_node)
 			next_node.pre = current
+			pre_node.next = current
 			
-			if pre_node is None:
+			if next_node == self.__fist:
 				# 如果pre为None 说明是在头部插入
 				self.__fist = current
-			else:
-				pre_node.next = current
+				self.__last.next = current
 		
 		self._size += 1
 	
@@ -114,17 +119,24 @@ class LinkList(AbstractList):
 		:param index:
 		:return:
 		"""
-		current = self.__node(index)
-		pre_node = current.pre
-		next_node = current.next
-		if pre_node is None:
-			# 如果pre_node 为None 则删除的节点为首节点
+		if self._size == 1:
+			self.__fist = None
+			self.__last = None
+		else:
+			current = self.__node(index)
+			pre_node = current.pre
+			next_node = current.next
+
+		if current == self.__fist:
+			# 如果删除的节点（current）为首节点
 			self.__fist = next_node
+			self.__last.next = next_node
 		else:
 			pre_node.next = next_node
 		
-		if next_node is None:
-			# 如果next_node 为None 则删除的节点为尾节点
+		if current == self.__last:
+			# 删除的是尾节点
+			self.__fist.pre = pre_node
 			self.__last = pre_node
 		else:
 			next_node.pre = pre_node

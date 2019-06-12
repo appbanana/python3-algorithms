@@ -3,6 +3,12 @@
 # UserId = NewType('next', Node)
 # T = TypeVar('T')
 
+# from com.jqc.abstractList import AbstractList
+"""
+循环单链表
+"""
+from com.jqc.abstractList import AbstractList
+
 
 class Node(object):
 	def __init__(self, element=None, next_node=None):
@@ -10,59 +16,29 @@ class Node(object):
 		self.next = next_node
 	
 	def __str__(self):
-		return str(self.element)
+		return str(self.element) + '_' + str(self.next.element)
 
 
-class LinkList(object):
+class SingleLinkList(AbstractList):
 	
 	def __init__(self):
+		super().__init__()
 		self.__fist = None
-		self.__size = 0
 	
 	def __str__(self):
 		"""
 		自定义打印
 		:return:
 		"""
-		string = 'size=' + str(self.__size) + ", ["
+		string = 'size=' + str(self._size) + ", ["
 		node = self.__fist
-		for i in range(self.__size):
+		for i in range(self._size):
 			if i != 0:
 				string += ','
-			string += str(node.element)
+			string += node.__str__()
 			node = node.next
 		string += ']'
 		return string
-	
-	def clear(self):
-		"""
-		清空链表
-		:return:
-		"""
-		self.__size = 0
-		self.__fist = None
-	
-	def size(self) -> int:
-		"""
-		返回链表长度
-		:return:
-		"""
-		return self.__size
-	
-	def is_empty(self):
-		"""
-		链表是否为空
-		:return:
-		"""
-		return self.__size == 0
-	
-	def contains(self, element):
-		"""
-		链表是否包含某个元素
-		:param element:
-		:return:
-		"""
-		return self.index_of(element) != -1
 	
 	def index_of(self, element):
 		"""
@@ -71,7 +47,7 @@ class LinkList(object):
 		:return:
 		"""
 		node = self.__fist
-		for i in range(self.__size):
+		for i in range(self._size):
 			if node.element == element:
 				return i
 			node = node.next
@@ -98,27 +74,23 @@ class LinkList(object):
 		node.element = element
 		return old_val
 	
-	def add(self, element):
-		"""
-		链表增加节点
-		:param element: 元素
-		"""
-		self.insert(self.__size, element)
-	
 	def insert(self, index, element):
 		"""
 		在指定位置插入元素
 		:param index: 索引
 		:param element: 元素
 		"""
-		self.__range_check_add(index)
+		self._range_check_add(index)
 		if index == 0:
-			self.__fist = Node(element, self.__fist)
+			new_first = Node(element, self.__fist)
+			old_last = new_first if self._size == 0 else self.__node(self._size - 1)
+			self.__fist = new_first
+			old_last.next = self.__fist
 		else:
 			pre = self.__node(index - 1)
 			pre.next = Node(element, pre.next)
 		
-		self.__size += 1
+		self._size += 1
 	
 	def remove(self, index):
 		"""
@@ -126,15 +98,20 @@ class LinkList(object):
 		:param index: 索引
 		:return: 返回删除节点的元素
 		"""
-		self.__range_check(index)
+		self._range_check(index)
 		node = self.__fist
 		if index == 0:
-			self.__fist = node.next
+			if self._size == 1:
+				self.__fist = None
+			else:
+				last_node = self.__node(self._size - 1)
+				self.__fist = node.next
+				last_node.next = self.__fist
 		else:
 			pre = self.__node(index - 1)
 			node = pre.next
 			pre.next = node.next
-		self.__size -= 1
+		self._size -= 1
 		return node.element
 	
 	def __node(self, index):
@@ -143,26 +120,8 @@ class LinkList(object):
 		:param index:
 		:return:
 		"""
-		self.__range_check(index)
+		self._range_check(index)
 		node = self.__fist
 		for i in range(index):
 			node = node.next
 		return node
-	
-	def __range_check(self, index):
-		"""
-		索引是否越界判断
-		:param index:
-		:return:
-		"""
-		if index < 0 or index >= self.__size:
-			raise NameError('数组越界 Index: %d, Size:%d'.format(index, self.__size))
-	
-	def __range_check_add(self, index):
-		"""
-		索引是否越界判断
-		:param index:
-		:return:
-		"""
-		if index < 0 or index > self.__size:
-			raise NameError('数组越界 Index: %d, Size:%d'.format(index, self.__size))
