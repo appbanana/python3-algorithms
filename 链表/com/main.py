@@ -1,102 +1,82 @@
-from com.jqc.stack.stack import Stack
-from com.jqc.queue.queue import Queue
-from com.jqc.circleQueue.circleQueue import CircleQueue
-from com.jqc.circleQueue.circleDeque import CircleDeque
+# import typing
+from com.jqc.binaryTree.binarySearchTree import BinarySearchTree
+
+
+# 测试闭包
+def test(number: int):
+	def test_in(num_in: int):
+		return number + num_in
+	
+	return test_in
 
 
 def test1():
 	"""
-	测试栈
+	测试递归和非递归 前，中，后序遍历
 	:return:
 	"""
-	stack = Stack()
-	stack.push(3)
-	stack.push(6)
-	stack.push(9)
-	stack.push(12)
-	# 12,9,6,3,
-	print(stack)
-	# 12
-	print(stack.pop())
-	# 9,6,3,
-	print(stack)
-	# 9
-	print(stack.top())
-
-
-def test2():
-	"""
-	测试队列
-	:return:
-	"""
-	queue = Queue()
-	queue.en_queue(3)
-	queue.en_queue(6)
-	queue.en_queue(9)
-	queue.en_queue(12)
-	# 3,6,9,12,
-	print(queue)
-	# 3
-	print(queue.de_queue())
-	# 6,9,12,
-	print(queue)
-	# 6
-	print(queue.front())
-
-
-def test3():
-	"""
-	测试循环队列
-	:return:
-	"""
-	circle_queue = CircleQueue()
-	# 循环队列添加10个元素
-	for i in range(10):
-		circle_queue.en_queue(i)
-	# capcacity=10, size=10, 起始索引 front = 0, [0,1,2,3,4,5,6,7,8,9]
-	print(circle_queue)
-	# 在把前5个出队列
-	for i in range(5):
-		circle_queue.de_queue()
-	# capcacity=10, size=5, 起始索引 front = 5, [None,None,None,None,None,5,6,7,8,9]
-	print(circle_queue)
+	# 递归来实现
+	# 前序遍历
+	# [5, 3, 41, 10, 28, 19, 12, 21, 81, 55, 79, 86]
+	print(bst.preorder())
+	print('*' * 30)
 	
-	# 扩容后可能会导致元素不对，注意的是扩容后要把索引转化为真实的索引后，在把元素放到新的数组中
-	for i in range(10, 20):
-		circle_queue.en_queue(i)
-	# capcacity=15, size=15, 起始索引 front = 0, [5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
-	print(circle_queue)
+	# 中序遍历
+	# [3, 5, 10, 12, 19, 21, 28, 41, 55, 79, 81, 86]
+	print(bst.inorder())
+	print('*' * 30)
+	
+	# 后序遍历
+	# [3, 12, 21, 19, 28, 10, 79, 55, 86, 81, 41, 5]
+	print(bst.postorder())
+	print('*' * 30)
+	
+	# 二叉树 非递归实现
+	# 前序遍历
+	# [5, 3, 41, 10, 28, 19, 12, 21, 81, 55, 79, 86]
+	print(bst.preorder_traversal())
+	print('*' * 30)
+	
+	# 中序遍历
+	# [3, 5, 10, 12, 19, 21, 28, 41, 55, 79, 81, 86]
+	print(bst.inorder_traversal())
+	print('*' * 30)
+	
+	# 后序遍历
+	# [3, 12, 21, 19, 28, 10, 79, 55, 86, 81, 41, 5]
+	print(bst.postorder_traversal())
+	print('*' * 30)
+	
+	# 层序遍历
+	# [5, 3, 41, 10, 81, 28, 55, 86, 19, 79, 12, 21]
+	print(bst.level_order_tranversal())
 
 
 if __name__ == '__main__':
+	# result = test("1")
+	# print(result)
+	# print(result('10'))
+	test_array = [5, 41, 81, 86, 55, 10, 28, 19, 79, 12, 3, 21]
+	bst = BinarySearchTree()
+	for item in test_array:
+		bst.add(item)
+	
+	"""
+	L---3
+	5
+	R---L---10
+	R---L---R---L---L---12
+	R---L---R---L---19
+	R---L---R---L---R---21
+	R---L---R---28
+	R---41
+	R---R---L---55
+	R---R---L---R---79
+	R---R---81
+	R---R---R---86
+	"""
+	print(bst)
+	# 测试递归和非递归 前，中，后序遍历
 	# test1()
-	# test2()
-	# test3()
+	print(bst.is_complete())
 	
-	circle_deque = CircleDeque()
-	# circle_deque.en_queue_front(0)
-	# # capcacity=10, size=1, 起始索引 front = 9, [None,None,None,None,None,None,None,None,None,0]
-	# print(circle_deque)
-	# circle_deque.en_queue_front(1)
-	# # capcacity=10, size=2, 起始索引 front = 8, [None,None,None,None,None,None,None,None,1,0]
-	# print(circle_deque)
-	
-	# for i in range(10):
-	# 	circle_deque.en_queue_front(i)
-	# # capcacity=10, size=10, 起始索引 front = 0, [9,8,7,6,5,4,3,2,1,0]
-	# print(circle_deque)
-	
-	for i in range(10):
-		circle_deque.en_queue_rear(i)
-	# capcacity=10, size=10, 起始索引 front = 0, [9,8,7,6,5,4,3,2,1,0]
-	print(circle_deque)
-	
-	for i in range(5):
-		circle_deque.de_queue_front()
-	# capcacity=10, size=5, 起始索引 front = 5, [None,None,None,None,None,5,6,7,8,9]
-	print(circle_deque)
-	
-	for i in range(9, 6, -1):
-		print(circle_deque.de_queue_rear())
-		
-	print(circle_deque)
