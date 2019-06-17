@@ -132,25 +132,3 @@ if __name__ == '__main__':
 	for item in test_array:
 		bst.add(item)
 	print(bst)
-	# [5, 3, 41, 10, 81, 28, 55, 86, 19, 79, 12, 21]
-	print(bst.level_order_tranversal())
-	print('****' * 10)
-	# # 删除叶子节点
-	# bst.remove(21)
-	# # [5, 3, 41, 10, 81, 28, 55, 86, 19, 79, 12]
-	# print(bst.level_order_tranversal())
-
-	# 删除度为1的节点
-	# bst.remove(10)
-# 	# # [5, 3, 41, 28, 81, 19, 55, 86, 12, 21, 79]
-# 	# print(bst.level_order_tranversal())
-
-	# 删除度为2的节点
-	# bst.remove(41)
-	# # [5, 3, 55, 10, 81, 28, 79, 86, 19, 12, 21]
-	# print(bst.level_order_tranversal())
-	
-	# 删除根节点
-	bst.remove(5)
-	# [10, 3, 41, 28, 81, 19, 55, 86, 12, 21, 79]
-	print(bst.level_order_tranversal())
