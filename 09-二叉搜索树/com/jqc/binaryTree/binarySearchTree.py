@@ -12,7 +12,6 @@ T = TypeVar('T')
 class BinarySearchTree(BinaryTree):
 	
 	def __init__(self, comparator=None):
-		super().__init__()
 		self._size = 0
 		self._root = None
 		self.__comparator = comparator

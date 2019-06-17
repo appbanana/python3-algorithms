@@ -154,3 +154,4 @@ if __name__ == '__main__':
 	bst.remove(5)
 	# [10, 3, 41, 28, 81, 19, 55, 86, 12, 21, 79]
 	print(bst.level_order_tranversal())
+	
