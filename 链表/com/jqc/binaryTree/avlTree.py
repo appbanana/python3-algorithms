@@ -1,5 +1,5 @@
-from .binarySearchTree import BinarySearchTree
 from .binaryTree import Node
+from .bbst import BBST
 
 
 class AVLNode(Node):
@@ -52,7 +52,7 @@ class AVLNode(Node):
 		return self.left if self.is_left_child() else self.right
 
 
-class AVLTree(BinarySearchTree):
+class AVLTree(BBST):
 	
 	def create_node(self, element, parent) -> Node:
 		"""
@@ -95,6 +95,11 @@ class AVLTree(BinarySearchTree):
 			
 			node = node.parent
 	
+	def _after_rotate(self, grand: Node, parent: Node, child: Node):
+		super()._after_rotate(grand, parent, child)
+		grand.update_height()
+		parent.update_height()
+	
 	@staticmethod
 	def __is_balanced(node: Node) -> bool:
 		"""
@@ -116,104 +121,18 @@ class AVLTree(BinarySearchTree):
 			# L
 			if node.is_left_child():
 				# LL 右旋
-				self.__rotate_right(grand)
+				self._rotate_right(grand)
 			else:
 				# LR 先对parent左旋在对grand右旋
-				self.__rotate_left(parent)
-				self.__rotate_right(grand)
+				self._rotate_left(parent)
+				self._rotate_right(grand)
 		else:
 			# R
 			if node.is_left_child():
 				# RL 先对parent右旋 在对grand左旋
-				self.__rotate_right(parent)
-				self.__rotate_left(grand)
+				self._rotate_right(parent)
+				self._rotate_left(grand)
 			else:
 				# RR 对grand左旋
-				self.__rotate_left(grand)
-	
-	# def __rotate_left(self, grand: AVLNode):
-	# 	"""
-	# 	左旋转
-	# 	:param node: 要旋转的节点
-	# 	:return:
-	# 	"""
-	# 	parent = grand.right
-	# 	child = parent.left
-	#
-	# 	grand.right = child
-	# 	parent.left = grand
-	#
-	# 	# 更新grand，parent，child的父节点
-	# 	# 更新parent的父节点
-	# 	parent.parent = grand.parent
-	# 	if grand.is_left_child():
-	# 		# grand原来是它父节点的左子节点，就让grand.parent.left指向parent
-	# 		grand.parent.left = parent
-	# 	elif grand.is_right_child():
-	# 		# grand原来是它父节点的右子节点，就让grand.parent.right指向parent
-	# 		grand.parent.right = parent
-	# 	else:
-	# 		# grand既不是左子节点 又不是右子节点 如果grand的父节点是根节点
-	# 		self._root = parent
-	#
-	# 	# 更新child, grand的父节点
-	# 	if child is not None:
-	# 		child.parent = grand
-	# 	grand.parent = parent
-	#
-	# 	# 更新高度
-	# 	grand.update_height()
-	# 	parent.update_height()
-	
-	def __rotate_left(self, grand: Node):
-		"""
-		左旋转
-		:param node: 要旋转的节点
-		:return:
-		"""
-		parent = grand.right
-		child = parent.left
-		
-		grand.right = child
-		parent.left = grand
-		
-		self.__after_rotate(grand, parent, child)
-	
-	def __rotate_right(self, grand: Node):
-		"""
-		右旋选
-		:param node: 要旋转的节点
-		:return:
-		"""
-		parent = grand.left
-		child = parent.right
-		
-		grand.left = child
-		parent.right = grand
-		
-		# 封装后 直接使用这个方法代替下面一坨代码
-		self.__after_rotate(grand, parent, child)
-	
-	def __after_rotate(self, grand: Node, parent: Node, child: Node):
-		# 更新grand，parent，child的父节点
-		# 更新parent的父节点
-		parent.parent = grand.parent
+				self._rotate_left(grand)
 
-		if grand.is_left_child():
-			# grand原来是它父节点的左子节点，就让grand.parent.left指向parent
-			grand.parent.left = parent
-		elif grand.is_right_child():
-			# grand原来是它父节点的右子节点，就让grand.parent.right指向parent
-			grand.parent.right = parent
-		else:
-			# grand既不是左子节点 又不是右子节点 如果grand的父节点是根节点
-			self._root = parent
-		
-		# 更新child, grand的父节点
-		if child is not None:
-			child.parent = grand
-		grand.parent = parent
-		
-		# 更新高度
-		grand.update_height()
-		parent.update_height()
