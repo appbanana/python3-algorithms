@@ -115,6 +115,94 @@ class RBTree(BBST):
 			# self._rotate_left(grand)
 			self._rotate_left(grand)
 	
+	def after_remove(self, node: Node) -> None:
+		"""
+		删除节点，修复红黑树性质
+		:param node:
+		:return:
+		"""
+		if self.__is_red(node):
+			# 如果被删除的是红色节点 或者替代的节点是红色(度为1而且有1个红色节点的情况)
+			self.__black(node)
+			return
+		
+		# 下面删除的是黑色节点
+		# 有三种情况 黑色节点有2个红色节点；黑色节点有1个红色节点；黑色节点有0个红色节点
+		parent = node.parent
+		if parent is None:
+			# parent 为空，说明删除的是根节点
+			return
+		
+		# 判断删除的节点是左还是右 不能使用node
+		is_left = parent.left is None or node.is_left_child()
+		sibling = parent.right if is_left else parent.left
+		
+		if is_left:
+			# 删除的节点是右边黑色的子节点
+			if self.__is_red(sibling):
+				# 该删除的节点有红色的兄弟节点
+				self.__black(sibling)
+				self.__red(parent)
+				self._rotate_left(parent)
+				# 旋转玩 更新兄弟节点
+				sibling = parent.right
+			
+			# 下面处理的是删除节点的兄弟节点是黑色兄弟(sibling是黑兄弟)
+			if self.__is_black(sibling.left) and self.__is_black(sibling.right):
+				# 黑兄弟的两个节点都是黑色
+				is_parent_black = self.__is_black(parent)
+				self.__red(sibling)
+				self.__black(parent)
+				if is_parent_black:
+					self.after_remove(parent)
+			
+			else:
+				if self.__is_black(sibling.right):
+					self._rotate_right(sibling)
+					sibling = parent.right
+				
+				self.__color(sibling, self.__color_of(parent))
+				self.__black(parent)
+				self.__black(sibling.right)
+				self._rotate_left(parent)
+		else:
+			# 删除的节点是右边黑色的子节点
+			if self.__is_red(sibling):
+				# 该删除的节点有红色的兄弟节点
+				self.__black(sibling)
+				self.__red(parent)
+				self._rotate_right(parent)
+				# 旋转玩 更新兄弟节点
+				sibling = parent.left
+				
+			# 下面处理的是删除节点的兄弟节点是黑色兄弟(sibling是黑兄弟)
+			if self.__is_black(sibling.left) and self.__is_black(sibling.right):
+				# 黑兄弟的两个节点都是黑色
+				is_parent_black = self.__is_black(parent)
+				self.__red(sibling)
+				self.__black(parent)
+				if is_parent_black:
+					self.after_remove(parent)
+				
+			else:
+				# 黑兄弟至少有一个红色的子节点
+				# if self.__is_black(sibling.left):
+				# 	self._rotate_left(sibling)
+				# 	self._rotate_right(parent)
+				# else:
+				# 	self.__black(parent)
+				# 	self.__red(sibling)
+				# 	self.__black(sibling.left)
+				# 	self._rotate_right(parent)
+				if self.__is_black(sibling.left):
+					self._rotate_left(sibling)
+					sibling = parent.left
+				
+				self.__color(sibling, self.__color_of(parent))
+				self.__black(parent)
+				self.__black(sibling.left)
+				self._rotate_right(parent)
+	
 	def __red(self, node: Node) -> Node:
 		"""
 		节点染红

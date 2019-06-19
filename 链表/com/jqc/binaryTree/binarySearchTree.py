@@ -154,7 +154,7 @@ class BinarySearchTree(BinaryTree):
 			else:
 				node.parent.right = replace_node
 			# 删除之后验证avl树
-			self.after_remove(node)
+			self.after_remove(replace_node)
 		elif node.parent is None:
 			# 删除的是度为0的根节点
 			self._root = None
