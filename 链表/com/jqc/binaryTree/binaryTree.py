@@ -52,6 +52,17 @@ class Node(object):
 		:return:
 		"""
 		return self.parent is not None and self == self.parent.right
+	
+	def sibling(self):
+		"""
+		返回兄弟节点
+		:return:
+		"""
+		if self.is_left_child():
+			return self.parent.right
+		if self.is_right_child():
+			return self.parent.left
+		return None
 
 
 class BinaryTree(object):
