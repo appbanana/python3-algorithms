@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ef09e1f-1188-410c-b9ca-67831802bcbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/com/jqc/binaryTree/img/02-avl树.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/jqc/binaryTree/img/03-红黑树.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/jqc/binaryTree/binarySearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/binaryTree/binarySearchTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/main.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="162" column="16" lean-forward="true" selection-start-line="162" selection-start-column="16" selection-end-line="162" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/binaryTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/avlTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/binarySearchTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="156" column="42" selection-start-line="156" selection-start-column="42" selection-end-line="156" selection-end-column="42" />
+              <folding>
+                <element signature="e#15#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>__node</find>
+      <find>__range_check</find>
+      <find>link</find>
+      <find>insert</find>
+      <find>arrayList</find>
+      <find>循环队列</find>
+      <find>add</find>
+      <find>__comparator</find>
+      <find>is_empty</find>
+      <find>remo</find>
+      <find>self.__size</find>
+      <find>self.__root</find>
+      <find>__element_not_none_check</find>
+      <find>__compare</find>
+      <find>self.__comparator</find>
+      <find>----create_node---AVLTree</find>
+      <find>class</find>
+      <find>after_remove</find>
+      <find>__</find>
+      <find>avl_Tree</find>
+      <find>Const</find>
+      <find>__black(node</find>
+      <find>const.</find>
+      <find>__RED</find>
+      <find>__height</find>
+      <find>__color</find>
+      <find>__color_of</find>
+      <find>print</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>_range_check</replace>
+      <replace>double_list</replace>
+      <replace>linkList</replace>
+      <replace>循环双端队列</replace>
+      <replace>self._size</replace>
+      <replace>self._root</replace>
+      <replace>self._comparator</replace>
+      <replace>_</replace>
+      <replace>rbTree</replace>
+      <replace>const</replace>
+      <replace />
+      <replace>ColorRED</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/list/DynamicArray.py" />
+        <option value="$PROJECT_DIR$/list/dynamicArray.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/com/jqc/main.py" />
+        <option value="$PROJECT_DIR$/com/jqc/link/lineList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/AbstractList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/abstractList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/link/linkList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/single/linkList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/single/singleLinkList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/linkList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/circleLink/singleCircleLinkList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/linkList/doubleLinkList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/circleLink/doubleCircleLinkList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/dynamicArray.py" />
+        <option value="$PROJECT_DIR$/com/jqc/stack/stack.py" />
+        <option value="$PROJECT_DIR$/com/jqc/queue/queue.py" />
+        <option value="$PROJECT_DIR$/com/jqc/queue/deque.py" />
+        <option value="$PROJECT_DIR$/com/jqc/circleQueue/circleQueue.py" />
+        <option value="$PROJECT_DIR$/com/jqc/circleQueue/circleDeque.py" />
+        <option value="$PROJECT_DIR$/com/test.py" />
+        <option value="$PROJECT_DIR$/com/jqc/bst/binarySearchTree.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/test.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/person.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/img/binaryTree.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/avl.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/bbst.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/avlTree.py" />
+        <option value="$PROJECT_DIR$/com/const.py" />
+        <option value="$PROJECT_DIR$/com/jqc/const/const.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/const.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/binaryTree.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/binarySearchTree.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py" />
+        <option value="$PROJECT_DIR$/com/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="825" />
+    <option name="y" value="302" />
+    <option name="width" value="1390" />
+    <option name="height" value="1014" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jqc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jqc" type="462c0819:PsiDirectoryNode" />
+              <item name="binaryTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jqc" type="462c0819:PsiDirectoryNode" />
+              <item name="const" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/com/jqc/binaryTree/img" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com/jqc/binaryTree/img" />
+      <recent name="$PROJECT_DIR$/com" />
+      <recent name="$PROJECT_DIR$/com/jqc/circleLink" />
+      <recent name="$PROJECT_DIR$/com/jqc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com/jqc/binaryTree" />
+      <recent name="$PROJECT_DIR$/com/jqc/const" />
+      <recent name="$PROJECT_DIR$/com/jqc/linkList" />
+      <recent name="$PROJECT_DIR$/com/jqc/single" />
+      <recent name="$PROJECT_DIR$/com" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="link" type="PythonConfigurationType" factoryName="Python">
+      <module name="链表" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ef09e1f-1188-410c-b9ca-67831802bcbe" name="Default Changelist" comment="" />
+      <created>1559289536555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559289536555</updated>
+      <workItem from="1560222126473" duration="1685000" />
+      <workItem from="1560224114958" duration="107000" />
+      <workItem from="1560224238691" duration="15916000" />
+      <workItem from="1560306589952" duration="20802000" />
+      <workItem from="1560393600969" duration="16116000" />
+      <workItem from="1560733786739" duration="20975000" />
+      <workItem from="1560820667601" duration="18775000" />
+      <workItem from="1560848037206" duration="1424000" />
+      <workItem from="1560906402593" duration="12039000" />
+      <workItem from="1560927409150" duration="5668000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="113513000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="825" y="302" width="1390" height="1014" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2833828" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33188722" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/com/jqc/circleQueue/circleQueue.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$array.coverage" NAME="link Coverage Results" MODIFIED="1560246667598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$link.coverage" NAME="link Coverage Results" MODIFIED="1560934528055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/1033253702/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/list/dynamicArray.py" />
+    <entry file="file://$PROJECT_DIR$/com/jqc/link/lineList.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/sklearn/cluster/k_means_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="914" selection-start-line="914" selection-end-line="929" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/sklearn/cluster/mean_shift_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-406">
+          <folding>
+            <element signature="e#665#683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/single/linkList.py" />
+    <entry file="file://$PROJECT_DIR$/com/jqc/linkList/singleLinkList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="27" selection-start-line="27" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/circleLink/singleLinkList.py" />
+    <entry file="file://$PROJECT_DIR$/com/jqc/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/linkList/doubleLinkList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/circleQueue/circleDeque.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/circleQueue/circleQueue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/queue/deque.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" selection-start-line="40" selection-start-column="4" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/circleLink/doubleCircleLinkList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="26" selection-start-line="26" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/circleLink/singleCircleLinkList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/1033253702/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="3674" column="10" selection-start-line="3674" selection-start-column="10" selection-end-line="3674" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/test.py" />
+    <entry file="file://$PROJECT_DIR$/com/jqc/stack/stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/queue/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/person.py" />
+    <entry file="file://$PROJECT_DIR$/com/jqc/abstractList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/dynamicArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="18" selection-start-line="90" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/collections/abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/asyncio/base_events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="178" column="5" selection-start-line="178" selection-end-line="178" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/bbst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#41#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/const.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/skimage/color/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-936">
+          <folding>
+            <element signature="e#0#2122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/skimage/color/adapt_rgb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-874">
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/skimage/color/colorconv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12432" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/sklearn/cluster/bicluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8388" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/sklearn/cluster/dbscan_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-992" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/const.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/binaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/avlTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/img/01-二叉搜索树.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/img/03-红黑树.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/binarySearchTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="156" column="42" selection-start-line="156" selection-start-column="42" selection-end-line="156" selection-end-column="42" />
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="162" column="16" lean-forward="true" selection-start-line="162" selection-start-column="16" selection-end-line="162" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
