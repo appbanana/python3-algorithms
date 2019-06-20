@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef09e1f-1188-410c-b9ca-67831802bcbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/jqc/binaryTree/img/02-avl树.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jqc/binaryTree/img/03-红黑树.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/jqc/binaryTree/binarySearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/binaryTree/binarySearchTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="680">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -43,13 +39,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="162" column="16" lean-forward="true" selection-start-line="162" selection-start-column="16" selection-end-line="162" selection-end-column="16" />
+            <state relative-caret-position="651">
+              <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#2725#3455#0" />
               </folding>
             </state>
           </provider>
@@ -82,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/binarySearchTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
+            <state relative-caret-position="2618">
               <caret line="156" column="42" selection-start-line="156" selection-start-column="42" selection-end-line="156" selection-end-column="42" />
               <folding>
                 <element signature="e#15#41#0" expanded="true" />
@@ -186,14 +183,14 @@
         <option value="$PROJECT_DIR$/com/jqc/binaryTree/const.py" />
         <option value="$PROJECT_DIR$/com/jqc/binaryTree/binaryTree.py" />
         <option value="$PROJECT_DIR$/com/jqc/binaryTree/binarySearchTree.py" />
-        <option value="$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py" />
         <option value="$PROJECT_DIR$/com/main.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="825" />
-    <option name="y" value="302" />
+    <option name="x" value="1052" />
+    <option name="y" value="322" />
     <option name="width" value="1390" />
     <option name="height" value="1014" />
   </component>
@@ -205,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,6 +238,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,23 +323,24 @@
       <workItem from="1560820667601" duration="18775000" />
       <workItem from="1560848037206" duration="1424000" />
       <workItem from="1560906402593" duration="12039000" />
-      <workItem from="1560927409150" duration="5668000" />
+      <workItem from="1560927409150" duration="7615000" />
+      <workItem from="1560993013764" duration="4248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113513000" />
+    <option name="totallyTimeSpent" value="119708000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="825" y="302" width="1390" height="1014" extended-state="0" />
+    <frame x="1052" y="322" width="1390" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2833828" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.287092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -566,6 +564,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/img/01-二叉搜索树.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/img/03-红黑树.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/binaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -586,15 +600,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/img/01-二叉搜索树.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/img/03-红黑树.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/binarySearchTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
+        <state relative-caret-position="2618">
           <caret line="156" column="42" selection-start-line="156" selection-start-column="42" selection-end-line="156" selection-end-column="42" />
           <folding>
             <element signature="e#15#41#0" expanded="true" />
@@ -604,20 +612,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="162" column="16" lean-forward="true" selection-start-line="162" selection-start-column="16" selection-end-line="162" selection-end-column="16" />
+        <state relative-caret-position="651">
+          <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#2725#3455#0" />
           </folding>
         </state>
       </provider>

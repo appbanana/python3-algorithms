@@ -64,26 +64,29 @@ class RBTree(BBST):
 		parent = node.parent
 		
 		if parent is None:
-			# node 是根节点
+			# node 是根节点，直接染黑
 			self.__black(node)
 			return
 		
 		if self.__is_black(parent):
-			# 父节点是黑色 不做任何处理
+			# 如果添加节点的父节点是黑色 不做任何处理
 			return
-		# 父节点是红色的
+		
+		# 能走到这里，父节点是红色的
+		# 获取添加节点的叔父节点和爷爷节点
 		uncle = parent.sibling()
 		grand = parent.parent
 		
 		if self.__is_red(uncle):
-			# 叔父节点是红色，父亲和叔父节点染黑， grand节点染红，向上合并
+			# 叔父节点是红色，结合4阶B树，算上添加的节点，就会有4个节点
+			# 不满足B树性质：非根节点元素个数 1 <= y <= 3，就会长生上溢
 			self.__black(parent)
 			self.__black(uncle)
-			
+			# 处理上溢
 			self.after_add(self.__red(grand))
 			return
 		
-		# 叔父节点是黑色
+		# 能走到这里， 叔父节点一定是黑色
 		if parent.is_left_child():
 			# L
 			self.__red(grand)
@@ -91,13 +94,13 @@ class RBTree(BBST):
 				# LL
 				# self.__red(grand)
 				self.__black(parent)
-			# self._rotate_right(grand)
+				# self._rotate_right(grand)
 			else:
 				# LR
 				# self.__red(grand)
 				self.__black(node)
 				self._rotate_left(parent)
-			# self._rotate_right(grand)
+				# self._rotate_right(grand)
 			self._rotate_right(grand)
 		else:
 			# R
@@ -121,20 +124,21 @@ class RBTree(BBST):
 		:param node:
 		:return:
 		"""
+		# 真正被删除的节点一定是叶子节点
 		if self.__is_red(node):
-			# 如果被删除的是红色节点 或者替代的节点是红色(度为1而且有1个红色节点的情况)
+			# 能走到这里有两种情况：1）被删除的是红色叶子节点；2）被删除的是黑色节点但至少有一个红色叶子节点
 			self.__black(node)
 			return
 		
-		# 下面删除的是黑色节点
-		# 有三种情况 黑色节点有2个红色节点；黑色节点有1个红色节点；黑色节点有0个红色节点
+		# 能走到这里 删除的一定是黑色叶子节点（ps：注意黑色节点和黑色叶子节点的区别）
 		parent = node.parent
 		if parent is None:
 			# parent 为空，说明删除的是根节点
 			return
 		
-		# 判断删除的节点是左还是右 不能使用node
+		# 判断删除的节点是左还是右 不能使用node 这要结合4阶B树来理解 非根节点的子节点个数一定2 <= y <= 4
 		is_left = parent.left is None or node.is_left_child()
+		# 获取被删除节点的兄弟节点
 		sibling = parent.right if is_left else parent.left
 		
 		if is_left:
@@ -166,26 +170,28 @@ class RBTree(BBST):
 				self.__black(sibling.right)
 				self._rotate_left(parent)
 		else:
-			# 删除的节点是右边黑色的子节点
+			# 删除的节点是右边黑色的叶子节点
 			if self.__is_red(sibling):
-				# 该删除的节点有红色的兄弟节点
+				# 该删除的节点有红兄弟(红色的兄弟节点)
 				self.__black(sibling)
 				self.__red(parent)
+				# 右旋转 把红红兄弟的黑儿子变成被删除节点的黑兄弟
 				self._rotate_right(parent)
-				# 旋转玩 更新兄弟节点
+				# 旋转完毕 一定要更新被删除节点的兄弟节点 这样被删除的节点就有黑兄弟，就和下面处理黑兄弟的逻辑是一样的
 				sibling = parent.left
 				
-			# 下面处理的是删除节点的兄弟节点是黑色兄弟(sibling是黑兄弟)
+			# 能走到这里，被删除节点的有黑兄弟(sibling是黑兄弟)
 			if self.__is_black(sibling.left) and self.__is_black(sibling.right):
-				# 黑兄弟的两个节点都是黑色
+				# 黑兄弟的两个子节点都是黑色
 				is_parent_black = self.__is_black(parent)
 				self.__red(sibling)
 				self.__black(parent)
 				if is_parent_black:
+					# 处理下溢
 					self.after_remove(parent)
 				
 			else:
-				# 黑兄弟至少有一个红色的子节点
+				# 黑兄弟至少有一个红色的子节点，说明黑兄弟有可以借的元素
 				# if self.__is_black(sibling.left):
 				# 	self._rotate_left(sibling)
 				# 	self._rotate_right(parent)
@@ -194,10 +200,15 @@ class RBTree(BBST):
 				# 	self.__red(sibling)
 				# 	self.__black(sibling.left)
 				# 	self._rotate_right(parent)
+				
+				# 上面代码整理成下面的
 				if self.__is_black(sibling.left):
+					# 黑兄弟左子节点是黑色
 					self._rotate_left(sibling)
 					sibling = parent.left
 				
+				# 黑兄弟左子节点是红色
+				# 把兄弟节点染色，与父节点同色
 				self.__color(sibling, self.__color_of(parent))
 				self.__black(parent)
 				self.__black(sibling.left)
