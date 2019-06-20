@@ -1,5 +1,6 @@
 # import typing
 from com.jqc.binaryTree.binarySearchTree import BinarySearchTree
+from com.jqc.binaryTree.binaryTree import Visitor
 from com.jqc.binaryTree.person import Person
 from com.jqc.binaryTree.binarySearchTree import Node
 
@@ -97,6 +98,7 @@ def test3():
 	print(bst.level_order_tranversal())
 
 
+
 def test4():
 	# 测试自定义类 使用匿名函数
 	bst = BinarySearchTree(lambda p1, p2: p2.age - p1.age)
@@ -118,15 +120,7 @@ def test4():
 	print(bst)
 
 
-if __name__ == '__main__':
-	# test1()
-	# test2()
-	# 测试自定义比较函数
-	# test3()
-	
-	# 测试自定义类 使用匿名函数
-	# test4()
-	
+def test5():
 	test_array = [5, 41, 81, 86, 55, 10, 28, 19, 79, 12, 3, 21]
 	bst = BinarySearchTree()
 	for item in test_array:
@@ -139,12 +133,12 @@ if __name__ == '__main__':
 	# bst.remove(21)
 	# # [5, 3, 41, 10, 81, 28, 55, 86, 19, 79, 12]
 	# print(bst.level_order_tranversal())
-
+	
 	# 删除度为1的节点
 	# bst.remove(10)
-# 	# # [5, 3, 41, 28, 81, 19, 55, 86, 12, 21, 79]
-# 	# print(bst.level_order_tranversal())
-
+	# 	# # [5, 3, 41, 28, 81, 19, 55, 86, 12, 21, 79]
+	# 	# print(bst.level_order_tranversal())
+	
 	# 删除度为2的节点
 	# bst.remove(41)
 	# # [5, 3, 55, 10, 81, 28, 79, 86, 19, 12, 21]
@@ -154,4 +148,24 @@ if __name__ == '__main__':
 	bst.remove(5)
 	# [10, 3, 41, 28, 81, 19, 55, 86, 12, 21, 79]
 	print(bst.level_order_tranversal())
+
+
+if __name__ == '__main__':
+	# test1()
+	# test2()
+	# 测试自定义比较函数
+	# test3()
 	
+	# 测试自定义类 使用匿名函数
+	# test4()
+	
+	# 测试删除节点
+	# test5()
+	
+	test_array = [5, 41, 81, 86, 55, 10, 28, 19, 79, 12, 3, 21]
+	bst = BinarySearchTree()
+	for item in test_array:
+		bst.add(item)
+	# print(bst)
+	
+	# print(bst.level_order_tranversal(Visitor()))

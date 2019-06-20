@@ -5,6 +5,14 @@ from typing import TypeVar, List
 T = TypeVar('T')
 
 
+class Visitor(object):
+	def __init__(self):
+		self.is_stop = False
+	
+	def visit(self, element) -> bool:
+		pass
+
+
 class Node(object):
 	def __init__(self, element, parent) -> None:
 		"""
@@ -36,6 +44,33 @@ class Node(object):
 		:return:
 		"""
 		return self.left is not None and self.right is not None
+	
+	def is_left_child(self) -> bool:
+		"""
+		判断是否是左子节点
+		:return:
+		"""
+		# 妈蛋 搞了半天这写错了 打断点调了半天才发现 草...
+		# return self.parent is not None and self == self.left
+		return self.parent is not None and self == self.parent.left
+	
+	def is_right_child(self) -> bool:
+		"""
+		判断是否是右子节点
+		:return:
+		"""
+		return self.parent is not None and self == self.parent.right
+	
+	def sibling(self):
+		"""
+		返回兄弟节点
+		:return:
+		"""
+		if self.is_left_child():
+			return self.parent.right
+		if self.is_right_child():
+			return self.parent.left
+		return None
 
 
 class BinaryTree(object):
@@ -195,9 +230,14 @@ class BinaryTree(object):
 					stack.push(node.left)
 		return container
 	
-	def level_order_tranversal(self) -> List[T]:
+	def level_order_tranversal(self, visit=None) -> List[T]:
 		"""
-		层序遍历
+		层序遍历 visit为lambda函数，可以控制遍历随时停止
+		def visit(e):
+			print(e)
+			return True if e == 10 else False
+		:param visit: lambda函数， 类似于上面形式的
+		:param visit:
 		:return:
 		"""
 		if self._root is None:
@@ -209,6 +249,10 @@ class BinaryTree(object):
 		while not queue.is_empty():
 			node = queue.de_queue()
 			container.append(node.element)
+			if visit is not None and visit(node.element):
+				# 控制遍历随时停止
+				return container
+				
 			if node.left is not None:
 				queue.en_queue(node.left)
 			if node.right is not None:

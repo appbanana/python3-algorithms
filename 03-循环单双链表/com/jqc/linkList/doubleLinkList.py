@@ -1,7 +1,7 @@
 """
 双链表
 """
-from com.jqc.abstractList import AbstractList
+from com.jqc.list.abstractList import AbstractList
 
 
 class Node(object):
@@ -25,6 +25,7 @@ class Node(object):
 
 
 class LinkList(AbstractList):
+	ELEMENT_NOT_FOUND = -1
 	
 	def __init__(self):
 		super().__init__()
@@ -130,6 +131,19 @@ class LinkList(AbstractList):
 			next_node.pre = pre_node
 		self._size -= 1
 		return current.element
+	
+	def index_of(self, element):
+		"""
+		返回元素的索引
+		:param element:
+		:return:
+		"""
+		node = self.__fist
+		for i in range(self._size):
+			if node.element == element:
+				return i
+			node = node.next
+		return LinkList.ELEMENT_NOT_FOUND
 	
 	def __node(self, index):
 		"""

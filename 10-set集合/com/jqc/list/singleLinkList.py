@@ -7,7 +7,7 @@
 """
 单链表
 """
-from com.jqc.abstractList import AbstractList
+from com.jqc.list.abstractList import AbstractList
 
 
 class Node(object):

@@ -5,7 +5,7 @@
 
 # from com.jqc.abstractList import AbstractList
 """
-循环单链表
+单链表
 """
 from com.jqc.list.abstractList import AbstractList
 
@@ -16,7 +16,7 @@ class Node(object):
 		self.next = next_node
 	
 	def __str__(self):
-		return str(self.element) + '_' + str(self.next.element)
+		return str(self.element)
 
 
 class SingleLinkList(AbstractList):
@@ -35,7 +35,7 @@ class SingleLinkList(AbstractList):
 		for i in range(self._size):
 			if i != 0:
 				string += ','
-			string += node.__str__()
+			string += str(node.element)
 			node = node.next
 		string += ']'
 		return string
@@ -82,10 +82,7 @@ class SingleLinkList(AbstractList):
 		"""
 		self._range_check_add(index)
 		if index == 0:
-			new_first = Node(element, self.__fist)
-			old_last = new_first if self._size == 0 else self.__node(self._size - 1)
-			self.__fist = new_first
-			old_last.next = self.__fist
+			self.__fist = Node(element, self.__fist)
 		else:
 			pre = self.__node(index - 1)
 			pre.next = Node(element, pre.next)
@@ -101,12 +98,7 @@ class SingleLinkList(AbstractList):
 		self._range_check(index)
 		node = self.__fist
 		if index == 0:
-			if self._size == 1:
-				self.__fist = None
-			else:
-				last_node = self.__node(self._size - 1)
-				self.__fist = node.next
-				last_node.next = self.__fist
+			self.__fist = node.next
 		else:
 			pre = self.__node(index - 1)
 			node = pre.next
