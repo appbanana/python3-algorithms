@@ -6,11 +6,21 @@ T = TypeVar('T')
 
 
 class Visitor(object):
-	def __init__(self):
+	def __init__(self, visitor):
+		"""
+		visitor 为lambda函数
+		def test(e):
+			print(e)
+			return True if e == 10 else False
+			
+		:param visitor: lambda函数， 类似于上面形式的
+		"""
+		
 		self.is_stop = False
+		self.__visitor = visitor
 	
 	def visit(self, element) -> bool:
-		pass
+		return self.__visitor(element)
 
 
 class Node(object):

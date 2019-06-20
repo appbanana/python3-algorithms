@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef09e1f-1188-410c-b9ca-67831802bcbe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../链表/com/jqc/map/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../链表/com/jqc/map/map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../链表/com/jqc/map/treeMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-set集合/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10-set集合/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-set集合/com/jqc/set/set.py" beforeDir="false" afterPath="$PROJECT_DIR$/../10-set集合/com/jqc/set/set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../链表/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/com/jqc/binaryTree/binarySearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/../链表/com/jqc/binaryTree/binarySearchTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/com/jqc/set/set.py" beforeDir="false" afterPath="$PROJECT_DIR$/../链表/com/jqc/set/set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/com/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../链表/com/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
+            <state relative-caret-position="697">
               <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
@@ -39,23 +46,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="651">
               <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <element signature="e#2725#3455#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/binaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
+            <state relative-caret-position="663">
               <caret line="39" column="21" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="21" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -206,33 +212,26 @@
         <subPane>
           <expand>
             <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="09-RBTree红黑树" type="b2602c69:ProjectViewProjectNode" />
+              <item name="09-RBTree红黑树" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="09-RBTree红黑树" type="b2602c69:ProjectViewProjectNode" />
+              <item name="09-RBTree红黑树" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="09-RBTree红黑树" type="b2602c69:ProjectViewProjectNode" />
+              <item name="09-RBTree红黑树" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jqc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="09-RBTree红黑树" type="b2602c69:ProjectViewProjectNode" />
+              <item name="09-RBTree红黑树" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jqc" type="462c0819:PsiDirectoryNode" />
               <item name="binaryTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jqc" type="462c0819:PsiDirectoryNode" />
-              <item name="const" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,17 +324,18 @@
       <workItem from="1560906402593" duration="12039000" />
       <workItem from="1560927409150" duration="7615000" />
       <workItem from="1560993013764" duration="4248000" />
+      <workItem from="1561021427190" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119708000" />
+    <option name="totallyTimeSpent" value="119735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1052" y="322" width="1390" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.287092" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29154304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -570,26 +570,6 @@
     <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/img/03-红黑树.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/binaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/avlTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -616,7 +596,26 @@
           <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#2725#3455#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/binaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

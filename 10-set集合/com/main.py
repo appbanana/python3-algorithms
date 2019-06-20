@@ -1,5 +1,6 @@
 from com.jqc.set.listSet import ListSet
 from com.jqc.set.treeSet import TreeSet
+from com.jqc.binaryTree.binaryTree import Visitor
 
 def visit(e):
 	# print(e)
@@ -52,5 +53,10 @@ if __name__ == '__main__':
 	
 	# 测试TreeSet
 	# test2()
+	test_array = [5, 41, 66, 66, 66, 10, 28, 77, 79]
+	visitor = Visitor()
+	cus_set = TreeSet(visitor)
+	for item in test_array:
+		cus_set.add(item)
 	
 
