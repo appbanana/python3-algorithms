@@ -11,6 +11,9 @@ class Person(object):
 		else:
 			return False
 	
+	# def __eq__(self, other):
+	# 	return self.age == other.age
+	
 	def __hash__(self) -> int:
 		hash_code = hash(self.age)
 		hash_code += hash_code * 31 + hash(self.height)
