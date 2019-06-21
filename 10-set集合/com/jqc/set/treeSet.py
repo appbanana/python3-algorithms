@@ -26,14 +26,14 @@ class TreeSet(BaseSet):
 	def remove(self, element):
 		self.__rbtree.remove(element)
 	
-	def traversal(self, visit=None):
+	def traversal(self, visitor=None):
 		"""
 		def visit(e):
 			print(e)
 			return True if e == 10 else False
-		:param visit: lambda函数， 类似于上面形式的
+		:param visitor: lambda函数， 类似于上面形式的
 		:return:
 		"""
 		# assert visit is not None, "visit不能为空，请传入一个lambda函数"
 		
-		return self.__rbtree.level_order_tranversal(visit)
+		return self.__rbtree.level_order_tranversal(visitor)

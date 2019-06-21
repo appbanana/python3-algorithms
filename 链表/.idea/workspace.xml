@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6ef09e1f-1188-410c-b9ca-67831802bcbe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../10-set集合/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10-set集合/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-set集合/com/jqc/binaryTree/binarySearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/../10-set集合/com/jqc/binaryTree/binarySearchTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-set集合/com/jqc/binaryTree/binaryTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/../10-set集合/com/jqc/binaryTree/binaryTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-set集合/com/jqc/set/treeSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/../10-set集合/com/jqc/set/treeSet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../10-set集合/com/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../10-set集合/com/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/jqc/map/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/map/map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/jqc/map/treeMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/map/treeMap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="490">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -47,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/jqc/map/map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#15#25#0" expanded="true" />
               </folding>
@@ -56,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/jqc/map/treeMap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="165" column="34" selection-start-line="165" selection-start-column="34" selection-end-line="165" selection-end-column="34" />
+            <state relative-caret-position="499">
+              <caret line="254" column="4" lean-forward="true" selection-start-line="254" selection-start-column="4" selection-end-line="254" selection-end-column="4" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -69,38 +69,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py">
+        <entry file="file://$PROJECT_DIR$/com/jqc/set/set.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="120" selection-start-line="120" selection-end-line="208" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <element signature="e#2348#4791#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/binaryTree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="329" selection-start-line="329" selection-end-line="367" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/binarySearchTree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="170" column="22" lean-forward="true" selection-start-line="128" selection-start-column="8" selection-end-line="170" selection-end-column="22" />
-              <folding>
-                <element signature="e#15#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -140,12 +112,12 @@
       <find>__node</find>
       <find>__element_not_none_check</find>
       <find>print</find>
-      <find>remove</find>
       <find>self.successor</find>
-      <find>after_remove</find>
       <find>self._rotate_right</find>
       <find>self._rotate_left</find>
       <find>self._root</find>
+      <find>remove</find>
+      <find>after_remove</find>
     </findStrings>
     <replaceStrings>
       <replace>_range_check</replace>
@@ -167,9 +139,9 @@
       <replace>after_add</replace>
       <replace>__key_not_none_check</replace>
       <replace>self.__successor</replace>
-      <replace>self.__root</replace>
       <replace>self.__rotate_right</replace>
       <replace>self.__rotate_left</replace>
+      <replace>self.__root</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -221,14 +193,15 @@
         <option value="$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py" />
         <option value="$PROJECT_DIR$/com/jqc/map/map.py" />
         <option value="$PROJECT_DIR$/com/jqc/map/treeMap.py" />
+        <option value="$USER_HOME$/Desktop/README的副本.md" />
         <option value="$PROJECT_DIR$/com/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="801" />
-    <option name="y" value="281" />
-    <option name="width" value="1390" />
+    <option name="x" value="1148" />
+    <option name="y" value="248" />
+    <option name="width" value="1549" />
     <option name="height" value="1014" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -369,17 +342,18 @@
       <workItem from="1560906402593" duration="12039000" />
       <workItem from="1560927409150" duration="7615000" />
       <workItem from="1560993013764" duration="22090000" />
-      <workItem from="1561079477615" duration="4764000" />
+      <workItem from="1561079477615" duration="8017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142314000" />
+    <option name="totallyTimeSpent" value="145567000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="801" y="281" width="1390" height="1014" extended-state="0" />
+    <frame x="1148" y="248" width="1549" height="1014" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29154304" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26078302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -418,7 +392,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/$array.coverage" NAME="link Coverage Results" MODIFIED="1560246667598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$link.coverage" NAME="link Coverage Results" MODIFIED="1561084817045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$link.coverage" NAME="link Coverage Results" MODIFIED="1561094835711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/1033253702/builtins.py" />
@@ -655,13 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/set/set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/jqc/set/listSet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -703,20 +670,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/map/treeMap.py">
+    <entry file="file://$USER_HOME$/Desktop/README的副本.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="517">
+            <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/iOS交接文档.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/set/set.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="165" column="34" selection-start-line="165" selection-start-column="34" selection-end-line="165" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/jqc/map/map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#15#25#0" expanded="true" />
           </folding>
@@ -725,10 +707,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="490">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/map/treeMap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="254" column="4" lean-forward="true" selection-start-line="254" selection-start-column="4" selection-end-line="254" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>

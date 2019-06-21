@@ -4,7 +4,7 @@
 
 from typing import TypeVar
 import operator
-from .binaryTree import BinaryTree, Node
+from .binaryTree import BinaryTree, Node, Visitor
 
 T = TypeVar('T')
 
@@ -13,8 +13,6 @@ class BinarySearchTree(BinaryTree):
 	
 	def __init__(self, comparator=None):
 		super().__init__()
-		# self._size = 0
-		# self._root = None
 		self._comparator = comparator
 	
 	def __str__(self):

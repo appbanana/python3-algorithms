@@ -2,9 +2,11 @@ from com.jqc.set.listSet import ListSet
 from com.jqc.set.treeSet import TreeSet
 from com.jqc.binaryTree.binaryTree import Visitor
 
+
 def visit(e):
 	# print(e)
 	return True if e == 10 else False
+
 
 def test1():
 	test_array = [5, 41, 66, 66, 66, 10, 28, 77, 79]
@@ -23,6 +25,7 @@ def test1():
 	# 遍历到10 停止遍历
 	print('----***----')
 	print(cus_set.traversal(visit))
+
 
 def test2():
 	test_array = [5, 41, 66, 66, 66, 10, 28, 77, 79]
@@ -45,18 +48,17 @@ def test2():
 # print(cus_set.traversal(visit))
 
 
-
-
 if __name__ == '__main__':
 	# 测试ListSet
 	# test1()
 	
 	# 测试TreeSet
 	# test2()
+	
+	# 随心所欲 现在哪里停止就在哪里停止
 	test_array = [5, 41, 66, 66, 66, 10, 28, 77, 79]
-	visitor = Visitor()
-	cus_set = TreeSet(visitor)
+	visitor = Visitor(visit)
+	cus_set = TreeSet()
 	for item in test_array:
 		cus_set.add(item)
-	
-
+	print(cus_set.traversal(visitor))

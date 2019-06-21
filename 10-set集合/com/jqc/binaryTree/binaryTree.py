@@ -6,11 +6,21 @@ T = TypeVar('T')
 
 
 class Visitor(object):
-	def __init__(self):
+	def __init__(self, visitor):
+		"""
+		visitor 为lambda函数
+		def test(e):
+			print(e)
+			return True if e == 10 else False
+
+		:param visitor: lambda函数， 类似于上面形式的
+		"""
+		
 		self.is_stop = False
+		self.__visitor = visitor
 	
 	def visit(self, element) -> bool:
-		pass
+		return self.__visitor(element)
 
 
 class Node(object):
@@ -230,14 +240,13 @@ class BinaryTree(object):
 					stack.push(node.left)
 		return container
 	
-	def level_order_tranversal(self, visit=None) -> List[T]:
+	def level_order_tranversal(self, visitor=None) -> List[T]:
 		"""
 		层序遍历 visit为lambda函数，可以控制遍历随时停止
 		def visit(e):
 			print(e)
 			return True if e == 10 else False
-		:param visit: lambda函数， 类似于上面形式的
-		:param visit:
+		:param visitor: lambda函数， 类似于上面形式的
 		:return:
 		"""
 		if self._root is None:
@@ -249,7 +258,7 @@ class BinaryTree(object):
 		while not queue.is_empty():
 			node = queue.de_queue()
 			container.append(node.element)
-			if visit is not None and visit(node.element):
+			if visitor is not None and visitor.visit(node.element):
 				# 控制遍历随时停止
 				return container
 				
