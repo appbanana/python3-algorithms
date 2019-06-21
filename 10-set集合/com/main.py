@@ -49,7 +49,7 @@ def test2():
 
 if __name__ == '__main__':
 	# 测试ListSet
-	test1()
+	# test1()
 	
 	# 测试TreeSet
 	# test2()
