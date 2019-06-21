@@ -1,31 +1,17 @@
-from com.jqc.map.treeMap import TreeMap
-from com.jqc.map.map import Visitor
-
-# unittest
-def visit(key, value):
-	print(key, value)
-	# return True if key == 'c' else False
-	return False
-
+from com.jqc.map.testModel.person import Person
+# import hashlib
+# import unittest
+import operator
 
 if __name__ == '__main__':
-	visitor = Visitor(visit)
-	cus_map = TreeMap()
-	cus_map.put("c", 2)
-	cus_map.put("a", 5)
-	cus_map.put("b", 6)
-	cus_map.put("a", 8)
-	cus_map.put("e", None)
-	cus_map.put("f", 8)
+	p1 = Person('abc', 18, 1.78)
+	p2 = Person('xyz', 18, 1.80)
 	
-	# print(cus_map)
-	print('-----*****-----')
-	cus_map.traversal(visitor)
+	print(p1 == p2)
+	# print(hash('abc'))
+	# print(hash(99))
+	# print(hash(p1))
+	# print(hash(p2))
+	# print(hash(None))
+	print(operator.eq(p1, p2))
 	
-	print('-----*****-----')
-	print(cus_map.contains_value(None))
-	print(cus_map.get('a'))
-	
-	print('-----*****-----')
-	print(cus_map.remove('a'))
-	cus_map.traversal(visitor)
