@@ -53,6 +53,11 @@ def test3(cus_map: HashMap, test_unit):
     for i in range(1, 20):
         cus_map.put(Key(i), i)
     cus_map.put(Key(4), 100)
+    # print(cus_map.size())
+    # print('***' * 10)
+    # visitor = Visitor(visit)
+    # cus_map.traversal(visitor)
+    #
     test_unit.assertTrue(cus_map.size() == 19)
     test_unit.assertTrue(cus_map.get(Key(4)) == 100)
     test_unit.assertTrue(cus_map.get(Key(16)) == 16)
@@ -62,8 +67,19 @@ def test3(cus_map: HashMap, test_unit):
 def test4(cus_map: HashMap, test_unit):
     for i in range(1, 21):
         cus_map.put(Key(i), i)
+    # print(cus_map.size())
+    # print('***' * 10)
+    # visitor = Visitor(visit)
+    # cus_map.traversal(visitor)
+    # print(cus_map.get(Key(12)))
+    # print('----end---end' * 5)
+
     for i in range(5, 8):
         cus_map.put(Key(i), i + 5)
+    # print(cus_map.size())
+    # print('***' * 10)
+    # visitor = Visitor(visit)
+    # cus_map.traversal(visitor)
     test_unit.assertTrue(cus_map.size() == 20)
     test_unit.assertTrue(cus_map.get(Key(4)) == 4)
     test_unit.assertTrue(cus_map.get(Key(5)) == 10)
@@ -148,8 +164,8 @@ if __name__ == '__main__':
     
     # test1(HashMap())
     
-    test2(HashMap(), test_unit)
-    test3(HashMap(), test_unit)
+    # test2(HashMap(), test_unit)
+    # test3(HashMap(), test_unit)
 
     test4(HashMap(), test_unit)
     test5(HashMap(), test_unit)

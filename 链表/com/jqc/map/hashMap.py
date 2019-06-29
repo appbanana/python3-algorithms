@@ -325,11 +325,11 @@ class HashMap(BaseMap):
         queue = Queue()
         for i in range(len(self.__table)):
             root = self.__table[i]
+            if root is None:
+                continue
             queue.en_queue(root)
             while not queue.is_empty():
                 node = queue.de_queue()
-                if node is None:
-                    continue
                 if visitor.visit(node.key, node.value):
                     return
                 if node.left:
@@ -402,6 +402,64 @@ class HashMap(BaseMap):
                 
                 self.__move_node(node)
     
+    # def __move_node(self, new_node):
+    #     """
+    #     移动node
+    #     :param node:
+    #     :return:
+    #     """
+    #     # 清空该node的父节点,左右节点还有红黑树的颜色
+    #     new_node.parent = None
+    #     new_node.left = None
+    #     new_node.right = None
+    #     new_node.color = Color.RED
+    #
+    #     # 找到该节点的对应的下标 取出节点(对应处红黑树的根节点)
+    #     new_index = self.__get_index_with_node(new_node)
+    #     root = self.__table[new_index]
+    #
+    #     if root is None:
+    #         # root为空 则是首次添加
+    #         root = new_node
+    #         self.__table[new_index] = root
+    #         self.__after_add(root)
+    #         return
+    #
+    #     # 非首次添加, 要顺着着棵红黑树找到该节点的父节点
+    #     key1 = new_node.key
+    #     hash1 = new_node.hash
+    #
+    #     cmp_result = 0
+    #     node = root
+    #     parent = root
+    #     while node is not None:
+    #         parent = node
+    #         key2 = node.key
+    #         hash2 = node.hash
+    #         if hash1 > hash2:
+    #             cmp_result = 1
+    #         elif hash1 < hash2:
+    #             cmp_result = -1
+    #         elif (key1 and key2) \
+    #                 and key1.__class__.__name__ == key2.__class__.__name__ \
+    #                 and hasattr(key1, 'compare') \
+    #                 and key1.compare(key2) != 0:
+    #             cmp_result = key1.compare(k2)
+    #         else:
+    #             cmp_result = hash(id(key1)) - hash(id(key2))
+    #
+    #         if cmp_result > 0:
+    #             node = node.right
+    #         elif cmp_result < 0:
+    #             node = node.left
+    #
+    #     new_node.parent = parent
+    #     if cmp_result > 0:
+    #         parent.right = node
+    #     else:
+    #         parent.left = node
+    #     # print(new_node.key, new_node.value)
+    #     self.__after_add(new_node)
     def __move_node(self, new_node):
         """
         移动node
@@ -413,52 +471,54 @@ class HashMap(BaseMap):
         new_node.left = None
         new_node.right = None
         new_node.color = Color.RED
-        
-        # 找到该节点的对应的下标 取出节点(对应处红黑树的根节点)
-        new_index = self.__get_index_with_node(new_node)
-        root = self.__table[new_index]
-        
+
+        # 由key获取对应索引
+        index = self.__get_index_with_key(new_node.key)
+
+        root = self.__table[index]
         if root is None:
-            # root为空 则是首次添加
             root = new_node
-            self.__table[new_index] = root
+            self.__table[index] = root
             self.__after_add(root)
-            return
-        
-        # 非首次添加, 要顺着着棵红黑树找到该节点的父节点
-        key1 = new_node.key
-        hash1 = new_node.hash
-        
-        cmp_result = 0
+            return None
+
         node = root
         parent = root
+        k1 = new_node.key
+        hash1 = new_node.hash
+        cmp_result = 0
         while node is not None:
             parent = node
-            key2 = node.key
+            k2 = node.key
             hash2 = node.hash
             if hash1 > hash2:
                 cmp_result = 1
             elif hash1 < hash2:
                 cmp_result = -1
-            elif (key1 and key2) \
-                    and key1.__class__.__name__ == key2.__class__.__name__ \
-                    and hasattr(key1, 'compare') \
-                    and key1.compare(key2) != 0:
-                cmp_result = key1.compare(k2)
+            elif operator.eq(k1, k2):
+                # hash值相等 key也相等 覆盖
+                cmp_result = 0
+            elif (k1 is not None and k2 is not None) \
+                    and (k1.__class__.__name__ == k2.__class__.__name__) \
+                    and hasattr(k1, 'compare') \
+                    and k1.compare(k2) != 0:
+                # 能走到这里,说明hash值相等, 当不eq, k1, k2都存在而且k1, k2可比较 但比较结果不相等
+                # compare比较结果相等,不一定是eq,要进行下面的扫描
+                cmp_result = k1.compare(k2)
             else:
-                cmp_result = hash(id(key1)) - hash(id(key2))
-            
+                # 如果已经扫描过一次,直接拿对象的地址的hash值比较就可以了
+                cmp_result = hash(id(k1)) - hash(id(k2))
+           
             if cmp_result > 0:
                 node = node.right
             elif cmp_result < 0:
                 node = node.left
-
+            
         new_node.parent = parent
         if cmp_result > 0:
-            parent.right = node
+            parent.right = new_node
         else:
-            parent.left = node
-        # print(new_node.key, new_node.value)
+            parent.left = new_node
         self.__after_add(new_node)
     
     def __after_add(self, node: Node):
