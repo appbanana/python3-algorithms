@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef09e1f-1188-410c-b9ca-67831802bcbe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../12-hashmap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../12-hashmap/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/jqc/map/hashMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/map/hashMap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/$link.coverage" NAME="link Coverage Results" MODIFIED="1561801419037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com" />
+    <SUITE FILE_PATH="coverage/$link.coverage" NAME="link Coverage Results" MODIFIED="1561801908764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -42,12 +40,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5075" />
+          <entry key="py" value="5080" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5075" />
+          <entry key="Python" value="5080" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -64,7 +62,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
@@ -76,14 +74,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/jqc/map/hashMap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="475" column="54" selection-start-line="475" selection-start-column="54" selection-end-line="475" selection-end-column="54" />
+            <state relative-caret-position="81">
+              <caret line="496" column="31" selection-start-line="496" selection-start-column="31" selection-end-line="496" selection-end-column="31" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1561801368701" expanded="true" signature="14935:14944" ph="..." />
+                <marker date="1561801742312" expanded="true" signature="14810:14819" ph="..." />
               </folding>
             </state>
           </provider>
@@ -266,8 +264,8 @@
         <option value="$PROJECT_DIR$/com/jqc/map/testModel/subkey1.py" />
         <option value="$PROJECT_DIR$/com/jqc/map/testModel/person.py" />
         <option value="$PROJECT_DIR$/com/jqc/map/comparable.py" />
-        <option value="$PROJECT_DIR$/com/jqc/map/hashMap.py" />
         <option value="$PROJECT_DIR$/com/main.py" />
+        <option value="$PROJECT_DIR$/com/jqc/map/hashMap.py" />
       </list>
     </option>
   </component>
@@ -278,7 +276,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
+    <option name="x" value="91" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="723" />
@@ -439,7 +437,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="23" width="1280" height="723" extended-state="0" />
+    <frame x="91" y="23" width="1280" height="723" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30936995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -762,23 +761,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/map/hashMap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="475" column="54" selection-start-line="475" selection-start-column="54" selection-end-line="475" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1561801368701" expanded="true" signature="14935:14944" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="170" column="28" selection-start-line="170" selection-start-column="28" selection-end-line="172" selection-end-column="31" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/map/hashMap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="496" column="31" selection-start-line="496" selection-start-column="31" selection-end-line="496" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1561801742312" expanded="true" signature="14810:14819" ph="..." />
           </folding>
         </state>
       </provider>
