@@ -37,12 +37,12 @@ def test2(map: HashMap, test_unit):
     map.put('abc', 5)
     map.put(None, 6)
     
-    # visitor = Visitor(visit)
-    # map.traversal(visitor)
+    visitor = Visitor(visit)
+    map.traversal(visitor)
     
     test_unit.assertTrue(map.size() == 4)
-    test_unit.assertTrue(map.get('xyz') == 4)
-    test_unit.assertTrue(map.get(None) == 6)
+    test_unit.assertTrue(cus_map.get('xyz') == 4)
+    test_unit.assertTrue(cus_map.get(None) == 6)
     test_unit.assertTrue(map.contains_key('abc'))
     test_unit.assertTrue(map.contains_value(2))
     test_unit.assertTrue(map.remove('abc') == 5)
@@ -54,9 +54,9 @@ def test3(cus_map: HashMap, test_unit):
         cus_map.put(Key(i), i)
     cus_map.put(Key(4), 100)
     test_unit.assertTrue(cus_map.size() == 19)
-    test_unit.assertTrue(cus_map.get(Key(4)) == 100)
-    test_unit.assertTrue(cus_map.get(Key(16)) == 16)
-    test_unit.assertTrue(cus_map.get(Key(18)) == 18)
+    test_unit.assertTrue(cus_cus_map.get(Key(4)) == 100)
+    test_unit.assertTrue(cus_cus_map.get(Key(16)) == 16)
+    test_unit.assertTrue(cus_cus_map.get(Key(18)) == 18)
 
 
 def test4(cus_map: HashMap, test_unit):
@@ -65,11 +65,11 @@ def test4(cus_map: HashMap, test_unit):
     for i in range(5, 8):
         cus_map.put(Key(i), i + 5)
     test_unit.assertTrue(cus_map.size() == 20)
-    test_unit.assertTrue(cus_map.get(Key(4)) == 4)
-    test_unit.assertTrue(cus_map.get(Key(5)) == 10)
-    test_unit.assertTrue(cus_map.get(Key(6)) == 11)
-    test_unit.assertTrue(cus_map.get(Key(7)) == 12)
-    test_unit.assertTrue(cus_map.get(Key(8)) == 8)
+    test_unit.assertTrue(cus_cus_map.get(Key(4)) == 4)
+    test_unit.assertTrue(cus_cus_map.get(Key(5)) == 10)
+    test_unit.assertTrue(cus_cus_map.get(Key(6)) == 11)
+    test_unit.assertTrue(cus_cus_map.get(Key(7)) == 12)
+    test_unit.assertTrue(cus_cus_map.get(Key(8)) == 8)
 
 
 def test5(cus_map: HashMap, test_unit):
@@ -83,10 +83,10 @@ def test5(cus_map: HashMap, test_unit):
     cus_map.put(None, 8)
     cus_map.put(10, None)
     test_unit.assertTrue(cus_map.size() == 5)
-    test_unit.assertTrue(cus_map.get(None) == 8)
-    test_unit.assertTrue(cus_map.get('jack') == 6)
-    test_unit.assertTrue(cus_map.get(10) == None)
-    test_unit.assertTrue(cus_map.get(object()) == None)
+    test_unit.assertTrue(cus_cus_map.get(None) == 8)
+    test_unit.assertTrue(cus_cus_map.get('jack') == 6)
+    test_unit.assertTrue(cus_cus_map.get(10) == None)
+    test_unit.assertTrue(cus_cus_map.get(object()) == None)
     test_unit.assertTrue(cus_map.contains_key(10))
     test_unit.assertTrue(cus_map.contains_key(None))
     test_unit.assertTrue(cus_map.contains_value(None))
@@ -125,7 +125,6 @@ def test7(cus_map: HashMap, test_unit):
     cus_map.put(SubKey2(1), 5)
     test_unit.assertTrue(cus_map.get(SubKey1(1)) == 5)
     test_unit.assertTrue(cus_map.get(SubKey2(1)) == 5)
-    print(cus_map.size())
     test_unit.assertTrue(cus_map.size() == 20)
 
 if __name__ == '__main__':
@@ -148,19 +147,12 @@ if __name__ == '__main__':
     
     # test1(HashMap())
     
-    test2(HashMap(), test_unit)
-    test3(HashMap(), test_unit)
-
-    test4(HashMap(), test_unit)
-    test5(HashMap(), test_unit)
-    test6(HashMap(), test_unit)
-    test7(HashMap(), test_unit)
+    # test2(HashMap(), test_unit)
+    # test3(HashMap(), test_unit)
     
-    # k1 = Key(1)
-    # k2 = SubKey2(1)
-    # print(operator.eq(k1, k2))
-    # print(operator.eq(k2, k1))
-    # print(k1.__class__.__name__)
-    # print(k1 == k2)
-    # print()
-    # print(issubclass(type(k1), type(k2)))
+    # test4(HashMap(), test_unit)
+    # False
+    # print(operator.eq(object(), object()))
+    # test5(HashMap(), test_unit)
+    # test6(HashMap(), test_unit)
+    test7(HashMap(), test_unit)

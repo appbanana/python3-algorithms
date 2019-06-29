@@ -4,7 +4,6 @@ from typing import TypeVar
 import operator
 from .map import Visitor
 from com.jqc.queue.queue import Queue
-
 # from .testModel.key import Key
 # from .testModel.subkey1 import SubKey1
 
@@ -83,10 +82,8 @@ class Node(object):
 
 
 class HashMap(BaseMap):
-    # 默认空间 2的n次方
+    # 默认空间
     __DEFAULT_CAPACITY = 1 << 4
-    # 装填因子
-    __DEFAULT_LOAD_FACTOR = 0.75
     
     def __init__(self):
         """
@@ -179,9 +176,6 @@ class HashMap(BaseMap):
         :param value:
         :return:
         """
-        # 查看是否要扩容
-        self.__ensure_capacity()
-        
         # 由key获取对应索引
         index = self.__get_index_with_key(key)
         
@@ -366,100 +360,6 @@ class HashMap(BaseMap):
         hash_code = hash(key)
         # 参考java官方的实现 虽然你实现hash 鬼知道你怎么实现的，保险起见，java官方对你的hash值又右移16在异或
         return (hash_code ^ (hash_code >> 16)) & (len(self.__table) - 1)
-    
-    def __ensure_capacity(self):
-        """
-        扩容
-        :param capacity:
-        :return:
-        """
-        old_capacity = len(self.__table)
-        if self.__size / old_capacity < 0.75:
-            return
-
-        # 开始扩容 扩大到原来的两倍
-        new_capacity = old_capacity << 1
-        print('---扩容了--',self.__size,  old_capacity, new_capacity)
-
-        old_table = self.__table
-        self.__table = [None] * new_capacity
-        # new_table = [None] * new_capacity
-        queue = Queue()
-        for index in range(old_capacity):
-            root = old_table[index]
-            if root is None:
-                continue
-            queue.en_queue(root)
-            
-            while not queue.is_empty():
-                node = queue.de_queue()
-                
-                if node.left:
-                    queue.en_queue(node.left)
-                    
-                if node.right:
-                    queue.en_queue(node.right)
-                
-                self.__move_node(node)
-    
-    def __move_node(self, new_node):
-        """
-        移动node
-        :param node:
-        :return:
-        """
-        # 清空该node的父节点,左右节点还有红黑树的颜色
-        new_node.parent = None
-        new_node.left = None
-        new_node.right = None
-        new_node.color = Color.RED
-        
-        # 找到该节点的对应的下标 取出节点(对应处红黑树的根节点)
-        new_index = self.__get_index_with_node(new_node)
-        root = self.__table[new_index]
-        
-        if root is None:
-            # root为空 则是首次添加
-            root = new_node
-            self.__table[new_index] = root
-            self.__after_add(root)
-            return
-        
-        # 非首次添加, 要顺着着棵红黑树找到该节点的父节点
-        key1 = new_node.key
-        hash1 = new_node.hash
-        
-        cmp_result = 0
-        node = root
-        parent = root
-        while node is not None:
-            parent = node
-            key2 = node.key
-            hash2 = node.hash
-            if hash1 > hash2:
-                cmp_result = 1
-            elif hash1 < hash2:
-                cmp_result = -1
-            elif (key1 and key2) \
-                    and key1.__class__.__name__ == key2.__class__.__name__ \
-                    and hasattr(key1, 'compare') \
-                    and key1.compare(key2) != 0:
-                cmp_result = key1.compare(k2)
-            else:
-                cmp_result = hash(id(key1)) - hash(id(key2))
-            
-            if cmp_result > 0:
-                node = node.right
-            elif cmp_result < 0:
-                node = node.left
-
-        new_node.parent = parent
-        if cmp_result > 0:
-            parent.right = node
-        else:
-            parent.left = node
-        # print(new_node.key, new_node.value)
-        self.__after_add(new_node)
     
     def __after_add(self, node: Node):
         """
