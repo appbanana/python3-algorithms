@@ -4,7 +4,6 @@ from typing import TypeVar
 import operator
 from .map import Visitor
 from com.jqc.queue.queue import Queue
-
 # from .testModel.key import Key
 # from .testModel.subkey1 import SubKey1
 
@@ -83,10 +82,8 @@ class Node(object):
 
 
 class HashMap(BaseMap):
-    # 默认空间 2的n次方
+    # 默认空间
     __DEFAULT_CAPACITY = 1 << 4
-    # 装填因子
-    __DEFAULT_LOAD_FACTOR = 0.75
     
     def __init__(self):
         """
@@ -172,25 +169,6 @@ class HashMap(BaseMap):
         
         return False
     
-    def create_node(self, key, value, parent):
-        """
-        默认返回node 子类可以重写
-        :param key:
-        :param value:
-        :param parent:
-        :return:
-        """
-        return Node(key, value, parent)
-    
-    def _after_remove(self, will_node, remove_node):
-        """
-        交给子类去实现
-        :param will_node:
-        :param remove_node:
-        :return:
-        """
-        pass
-    
     def __add(self, key, value) -> T:
         """
         put实现部分
@@ -198,20 +176,16 @@ class HashMap(BaseMap):
         :param value:
         :return:
         """
-        # 查看是否要扩容
-        self.__ensure_capacity()
-        
         # 由key获取对应索引
         index = self.__get_index_with_key(key)
         
         root = self.__table[index]
         if root is None:
-            # root = Node(key, value, None)
-            root = self.create_node(key, value, None)
+            root = Node(key, value, None)
             self.__table[index] = root
             self.__size += 1
             # 添加元素后，进行调整，使其满足红黑树性质
-            self.__fix_after_add(root)
+            self.__after_add(root)
             return None
         # index索引对应的有元素(ps: 元素是以红黑树的形式存储)，取出对应根节点
         # 下面这段代码 跟前面红黑树，添加的逻辑是一样的
@@ -232,12 +206,8 @@ class HashMap(BaseMap):
             elif operator.eq(k1, k2):
                 # hash值相等 key也相等 覆盖
                 cmp_result = 0
-            # elif (k1 is not None and k2 is not None) \
-            #         and (k1.__class__.__name__ == k2.__class__.__name__) \
-            #         and hasattr(k1, 'compare') \
-            #         and k1.compare(k2) != 0:
             elif (k1 is not None and k2 is not None) \
-                    and (isinstance(k1, type(k2)) or issubclass(type(k1), type(k2)) or issubclass(type(k2), type(k1))) \
+                    and (k1.__class__.__name__ == k2.__class__.__name__) \
                     and hasattr(k1, 'compare') \
                     and k1.compare(k2) != 0:
                 # 能走到这里,说明hash值相等, 当不eq, k1, k2都存在而且k1, k2可比较 但比较结果不相等
@@ -269,15 +239,13 @@ class HashMap(BaseMap):
                 node.value = value
                 return old_val
         
-        # new_node = Node(key, value, parent)
-        new_node = self.create_node(key, value, parent)
-        
+        new_node = Node(key, value, parent)
         if cmp_result > 0:
             parent.right = new_node
         else:
             parent.left = new_node
         self.__size += 1
-        self.__fix_after_add(new_node)
+        self.__after_add(new_node)
         return None
     
     def __remove(self, node: Node):
@@ -289,7 +257,6 @@ class HashMap(BaseMap):
         if node is None:
             return
         
-        will_node = node
         self.__size -= 1
         old_val = node.value
         
@@ -320,12 +287,12 @@ class HashMap(BaseMap):
             else:
                 node.parent.right = replace_node
             # 删除之后调整使其满足红黑树性质
-            self.__fix_after_remove(replace_node)
+            self.__after_remove(replace_node)
         elif node.parent is None:
             # 删除的是度为0的根节点
             self.__table[index] = None
             # 删除之后验证avl树
-            self.__fix_after_remove(node)
+            self.__after_remove(node)
         else:
             # 删除度为0的节点
             if node == node.parent.left:
@@ -333,9 +300,8 @@ class HashMap(BaseMap):
             else:
                 node.parent.right = None
             # 删除之后调整使其满足红黑树性质
-            self.__fix_after_remove(node)
+            self.__after_remove(node)
         
-        self._after_remove(will_node, node)
         return old_val
     
     def traversal(self, visitor: Visitor):
@@ -354,11 +320,11 @@ class HashMap(BaseMap):
         queue = Queue()
         for i in range(len(self.__table)):
             root = self.__table[i]
-            if root is None:
-                continue
             queue.en_queue(root)
             while not queue.is_empty():
                 node = queue.de_queue()
+                if node is None:
+                    continue
                 if visitor.visit(node.key, node.value):
                     return
                 if node.left:
@@ -396,100 +362,7 @@ class HashMap(BaseMap):
         # 参考java官方的实现 虽然你实现hash 鬼知道你怎么实现的，保险起见，java官方对你的hash值又右移16在异或
         return (hash_code ^ (hash_code >> 16)) & (len(self.__table) - 1)
     
-    def __ensure_capacity(self):
-        """
-        扩容
-        :param capacity:
-        :return:
-        """
-        old_capacity = len(self.__table)
-        if self.__size / old_capacity < 0.75:
-            return
-        
-        # 开始扩容 扩大到原来的两倍
-        new_capacity = old_capacity << 1
-        print('---扩容了--', self.__size, old_capacity, new_capacity)
-        
-        old_table = self.__table
-        self.__table = [None] * new_capacity
-        # new_table = [None] * new_capacity
-        queue = Queue()
-        for index in range(old_capacity):
-            root = old_table[index]
-            if root is None:
-                continue
-            queue.en_queue(root)
-            
-            while not queue.is_empty():
-                node = queue.de_queue()
-                
-                if node.left:
-                    queue.en_queue(node.left)
-                
-                if node.right:
-                    queue.en_queue(node.right)
-                
-                self.__move_node(node)
-    
-    def __move_node(self, new_node):
-        """
-        移动node
-        :param node:
-        :return:
-        """
-        # 清空该node的父节点,左右节点还有红黑树的颜色
-        new_node.parent = None
-        new_node.left = None
-        new_node.right = None
-        new_node.color = Color.RED
-        
-        # 由key获取对应索引
-        index = self.__get_index_with_key(new_node.key)
-        
-        root = self.__table[index]
-        if root is None:
-            root = new_node
-            self.__table[index] = root
-            self.__fix_after_add(root)
-            return None
-        
-        node = root
-        parent = root
-        k1 = new_node.key
-        hash1 = new_node.hash
-        cmp_result = 0
-        while node is not None:
-            parent = node
-            k2 = node.key
-            hash2 = node.hash
-            if hash1 > hash2:
-                cmp_result = 1
-            elif hash1 < hash2:
-                cmp_result = -1
-            elif (k1 is not None and k2 is not None) \
-                    and (isinstance(k1, type(k2)) or issubclass(type(k1), type(k2)) or issubclass(type(k2), type(k1))) \
-                    and hasattr(k1, 'compare') \
-                    and k1.compare(k2) != 0:
-                # 能走到这里,说明hash值相等, 当不eq, k1, k2都存在而且k1, k2可比较 但比较结果不相等
-                # compare比较结果相等,不一定是eq,要进行下面的扫描
-                cmp_result = k1.compare(k2)
-            else:
-                # 如果已经扫描过一次,直接拿对象的地址的hash值比较就可以了
-                cmp_result = hash(id(k1)) - hash(id(k2))
-            
-            if cmp_result > 0:
-                node = node.right
-            elif cmp_result < 0:
-                node = node.left
-        
-        new_node.parent = parent
-        if cmp_result > 0:
-            parent.right = new_node
-        else:
-            parent.left = new_node
-        self.__fix_after_add(new_node)
-    
-    def __fix_after_add(self, node: Node):
+    def __after_add(self, node: Node):
         """
         修复红黑树的性质
         :param node:
@@ -517,7 +390,7 @@ class HashMap(BaseMap):
             self.__black(parent)
             self.__black(uncle)
             # 处理上溢
-            self.__fix_after_add(self.__red(grand))
+            self.__after_add(self.__red(grand))
             return
         
         # 能走到这里， 叔父节点一定是黑色
@@ -552,7 +425,7 @@ class HashMap(BaseMap):
             # self.__rotate_left(grand)
             self.__rotate_left(grand)
     
-    def __fix_after_remove(self, node: Node) -> None:
+    def __after_remove(self, node: Node) -> None:
         """
         删除节点，修复红黑树性质
         :param node:
@@ -595,7 +468,7 @@ class HashMap(BaseMap):
                 self.__black(parent)
                 if is_parent_black:
                     # 处理下溢
-                    self.__fix_after_remove(parent)
+                    self.__after_remove(parent)
             
             else:
                 # 黑兄弟至少有一个红色的子节点，说明黑兄弟有可以借的元素
@@ -629,7 +502,7 @@ class HashMap(BaseMap):
                 self.__red(sibling)
                 self.__black(parent)
                 if is_parent_black:
-                    self.__fix_after_remove(parent)
+                    self.__after_remove(parent)
             
             else:
                 if self.__is_black(sibling.right):
@@ -719,7 +592,7 @@ class HashMap(BaseMap):
             elif operator.eq(k1, k2):
                 return node
             elif (k1 and k2) \
-                    and (isinstance(k1, type(k2)) or issubclass(type(k1), type(k2)) or issubclass(type(k2), type(k1))) \
+                    and k1.__class__.__name__ == k2.__class__.__name__ \
                     and hasattr(k1, 'compare') \
                     and k1.compare(k2) != 0:
                 cmp_result = k1.compare(k2)

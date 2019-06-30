@@ -1,21 +1,19 @@
-import unittest
 from com.jqc.map.hashMap import HashMap
-from com.jqc.map.linkHashMap import LinkHashMap
 from com.jqc.map.map import Visitor
 from com.jqc.map.testModel.person import Person
 from com.jqc.map.testModel.key import Key
 from com.jqc.map.testModel.subkey1 import SubKey1
 from com.jqc.map.testModel.subkey2 import SubKey2
-
+import unittest
+import operator
 
 
 def visit(key, value):
-    print(key, "_", value)
-    # return True if value == 5 else False
+    print(key, "-", value)
     return False
 
 
-def test1(map, test_unit):
+def test1(map: HashMap):
     """
     测试具有相同属性的实例对象是否为同一个键,
     :param map:
@@ -26,8 +24,7 @@ def test1(map, test_unit):
     map.put(p1, '1')
     map.put(p2, '2')
     # 1
-    test_unit.assertTrue(map.size() == 1)
-
+    print(map.size())
 
 
 def test2(map: HashMap, test_unit):
@@ -60,7 +57,7 @@ def test3(cus_map: HashMap, test_unit):
     # print('***' * 10)
     # visitor = Visitor(visit)
     # cus_map.traversal(visitor)
-
+    #
     test_unit.assertTrue(cus_map.size() == 19)
     test_unit.assertTrue(cus_map.get(Key(4)) == 100)
     test_unit.assertTrue(cus_map.get(Key(16)) == 16)
@@ -135,10 +132,6 @@ def test6(cus_map: HashMap, test_unit):
     test_unit.assertTrue(cus_map.get(Key(6)) == None)
     test_unit.assertTrue(cus_map.get(Key(7)) == None)
     test_unit.assertTrue(cus_map.get(Key(8)) == 8)
-    
-    print('***' * 10)
-    visitor = Visitor(visit)
-    cus_map.traversal(visitor)
 
 
 def test7(cus_map: HashMap, test_unit):
@@ -169,25 +162,21 @@ if __name__ == '__main__':
     
     test_unit = unittest.TestCase()
     
-    test1(LinkHashMap(), test_unit)
-    test2(LinkHashMap(), test_unit)
-    test3(LinkHashMap(), test_unit)
-    test4(LinkHashMap(), test_unit)
-    test5(LinkHashMap(), test_unit)
-    test6(LinkHashMap(), test_unit)
-    test7(LinkHashMap(), test_unit)
+    # test1(HashMap())
     
-    # 测试删除度为2的节点
-    array = [37, 21, 31, 41, 97, 95, 52, 42, 83]
-    link_hash_map = LinkHashMap()
-    for index, item in enumerate(array):
-        link_hash_map.put(item, index)
-    
-    print('***-----****' * 10)
-    visitor = Visitor(visit)
-    link_hash_map.traversal(visitor)
-    print(link_hash_map.remove(31))
-    print('***-----****' * 10)
-    visitor = Visitor(visit)
-    link_hash_map.traversal(visitor)
+    # test2(HashMap(), test_unit)
+    # test3(HashMap(), test_unit)
 
+    test4(HashMap(), test_unit)
+    test5(HashMap(), test_unit)
+    test6(HashMap(), test_unit)
+    test7(HashMap(), test_unit)
+    
+    # k1 = Key(1)
+    # k2 = SubKey2(1)
+    # print(operator.eq(k1, k2))
+    # print(operator.eq(k2, k1))
+    # print(k1.__class__.__name__)
+    # print(k1 == k2)
+    # print()
+    # print(issubclass(type(k1), type(k2)))

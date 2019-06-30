@@ -14,4 +14,4 @@ class Key(object):
         return self.value == other.value
     
     def __str__(self):
-        return 'Key(' + str(self.value) + ')'
+        return 'v(' + str(self.value) + ')'
