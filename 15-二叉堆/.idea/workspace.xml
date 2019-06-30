@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ef09e1f-1188-410c-b9ca-67831802bcbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/com/jqc/heap/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/jqc/heap/abstractHeap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/jqc/heap/binaryHeap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/jqc/set/hashSet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/jqc/set/linkHashSet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/main.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/$link.coverage" NAME="link Coverage Results" MODIFIED="1561904005108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1109082604">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="10140" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="10140" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="39" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="39" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1561903960766" expanded="true" signature="64:66" ph="..." />
+                <marker date="1561903960766" expanded="true" signature="282:432" ph="..." />
+                <marker date="1561903960766" expanded="true" signature="454:605" ph="..." />
+                <marker date="1561903960766" expanded="true" signature="602:605" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/jqc/heap/abstractHeap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1561876954881" expanded="true" signature="71:683" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/jqc/heap/binaryHeap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+                <marker date="1561903637384" expanded="true" signature="614:623" ph="..." />
+                <marker date="1561903637384" expanded="true" signature="2336:3734" ph="..." />
+                <marker date="1561903637384" expanded="true" signature="5203:5208" ph="..." />
+                <marker date="1561903637384" expanded="true" signature="5232:5241" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/jqc/list/dynamicArray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="90" selection-start-line="90" selection-end-line="103" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>e1</find>
+      <find>e2</find>
+      <find>__get_index_with_node</find>
+      <find>_index</find>
+      <find>equal</find>
+      <find>__remove</find>
+      <find>prin</find>
+      <find>__compare</find>
+      <find>get</find>
+      <find>pri</find>
+      <find>Asserts.test</find>
+      <find>ens</find>
+      <find>move</find>
+      <find>en</find>
+      <find>hasattr</find>
+      <find>new_capacity</find>
+      <find>cus_cus_map</find>
+      <find>print</find>
+      <find>move_no</find>
+      <find>__ensure_capacity</find>
+      <find>k1.__class__.__name__ ==</find>
+      <find>add</find>
+      <find>static</find>
+      <find>tra</find>
+      <find>after_re</find>
+      <find>create</find>
+      <find>__rbtree</find>
+      <find>element</find>
+      <find>remove</find>
+      <find>compare</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>_range_check</replace>
+      <replace>double_list</replace>
+      <replace>linkList</replace>
+      <replace>循环双端队列</replace>
+      <replace>self._size</replace>
+      <replace>self._root</replace>
+      <replace>self._comparator</replace>
+      <replace>_</replace>
+      <replace>rbTree</replace>
+      <replace>const</replace>
+      <replace />
+      <replace>ColorRED</replace>
+      <replace>__rotate_left</replace>
+      <replace>__after_rotate</replace>
+      <replace>__after_add</replace>
+      <replace>__rbtree</replace>
+      <replace>after_add</replace>
+      <replace>__key_not_none_check</replace>
+      <replace>self.__successor</replace>
+      <replace>self.__rotate_right</replace>
+      <replace>self.__root</replace>
+      <replace>self.__rotate_left</replace>
+      <replace>self</replace>
+      <replace>p</replace>
+      <replace>test_unit.assertTrue</replace>
+      <replace>cus_map</replace>
+      <replace>__hash_map</replace>
+      <replace>key</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/com/jqc/AbstractList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/abstractList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/link/linkList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/single/linkList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/single/singleLinkList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/linkList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/circleLink/singleCircleLinkList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/linkList/doubleLinkList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/circleLink/doubleCircleLinkList.py" />
+        <option value="$PROJECT_DIR$/com/jqc/dynamicArray.py" />
+        <option value="$PROJECT_DIR$/com/jqc/stack/stack.py" />
+        <option value="$PROJECT_DIR$/com/jqc/queue/queue.py" />
+        <option value="$PROJECT_DIR$/com/jqc/queue/deque.py" />
+        <option value="$PROJECT_DIR$/com/jqc/circleQueue/circleQueue.py" />
+        <option value="$PROJECT_DIR$/com/jqc/circleQueue/circleDeque.py" />
+        <option value="$PROJECT_DIR$/com/test.py" />
+        <option value="$PROJECT_DIR$/com/jqc/bst/binarySearchTree.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/test.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/person.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/img/binaryTree.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/avl.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/bbst.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/avlTree.py" />
+        <option value="$PROJECT_DIR$/com/const.py" />
+        <option value="$PROJECT_DIR$/com/jqc/const/const.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/const.py" />
+        <option value="$PROJECT_DIR$/com/jqc/list/doubleLinkList.py" />
+        <option value="$PROJECT_DIR$/com/Visitor.py" />
+        <option value="$PROJECT_DIR$/com/visitor.py" />
+        <option value="$PROJECT_DIR$/com/jqc/set/treeSet.py" />
+        <option value="$PROJECT_DIR$/com/jqc/set/listSet.py" />
+        <option value="$PROJECT_DIR$/com/jqc/set/set.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/binarySearchTree.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/binaryTree.py" />
+        <option value="$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py" />
+        <option value="$PROJECT_DIR$/com/jqc/map/map.py" />
+        <option value="$PROJECT_DIR$/com/jqc/map/treeMap.py" />
+        <option value="$USER_HOME$/Desktop/README的副本.md" />
+        <option value="$PROJECT_DIR$/com/testModel.py" />
+        <option value="$PROJECT_DIR$/com/jqc/map/testModel/subkey2.py" />
+        <option value="$PROJECT_DIR$/com/jqc/map/testModel/subkey1.py" />
+        <option value="$PROJECT_DIR$/com/jqc/map/testModel/person.py" />
+        <option value="$PROJECT_DIR$/com/jqc/map/comparable.py" />
+        <option value="$PROJECT_DIR$/com/jqc/map/testModel/key.py" />
+        <option value="$PROJECT_DIR$/com/jqc/map/hashMap.py" />
+        <option value="$PROJECT_DIR$/com/jqc/map/linkHashMap.py" />
+        <option value="$PROJECT_DIR$/com/jqc/set/hashSet.py" />
+        <option value="$PROJECT_DIR$/com/jqc/set/linkHashSet.py" />
+        <option value="$PROJECT_DIR$/com/jqc/heap/abstractHeap.py" />
+        <option value="$PROJECT_DIR$/com/jqc/heap/binaryHeap.py" />
+        <option value="$PROJECT_DIR$/com/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="91" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="722" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jqc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jqc" type="462c0819:PsiDirectoryNode" />
+              <item name="heap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jqc" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jqc" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/com/jqc/binaryTree/img" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com/jqc/linkList" />
+      <recent name="$PROJECT_DIR$/com/jqc/binaryTree" />
+      <recent name="$PROJECT_DIR$/com/jqc/const" />
+      <recent name="$PROJECT_DIR$/com/jqc/single" />
+      <recent name="$PROJECT_DIR$/com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com/jqc/binaryTree/img" />
+      <recent name="$PROJECT_DIR$/com" />
+      <recent name="$PROJECT_DIR$/com/jqc/circleLink" />
+      <recent name="$PROJECT_DIR$/com/jqc" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="link" type="PythonConfigurationType" factoryName="Python">
+      <module name="链表" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ef09e1f-1188-410c-b9ca-67831802bcbe" name="Default Changelist" comment="" />
+      <created>1559289536555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559289536555</updated>
+      <workItem from="1560222126473" duration="1685000" />
+      <workItem from="1560224114958" duration="107000" />
+      <workItem from="1560224238691" duration="15916000" />
+      <workItem from="1560306589952" duration="20802000" />
+      <workItem from="1560393600969" duration="16116000" />
+      <workItem from="1560733786739" duration="20975000" />
+      <workItem from="1560820667601" duration="18775000" />
+      <workItem from="1560848037206" duration="1424000" />
+      <workItem from="1560906402593" duration="12039000" />
+      <workItem from="1560927409150" duration="7615000" />
+      <workItem from="1560993013764" duration="22090000" />
+      <workItem from="1561079477615" duration="18653000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="156203000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30936995" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29452056" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863014" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33150685" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/com/jqc/circleQueue/circleQueue.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/com/jqc/map/hashMap.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/com/jqc/map/hashMap.py</url>
+          <line>206</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/com/jqc/map/hashMap.py</url>
+          <line>233</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/com/jqc/heap/binaryHeap.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$array.coverage" NAME="link Coverage Results" MODIFIED="1560246667598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$link.coverage" NAME="link Coverage Results" MODIFIED="1561109243913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/collections/abc.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/asyncio/base_events.py" />
+    <entry file="file://$PROJECT_DIR$/com/const.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/skimage/color/__init__.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/skimage/color/adapt_rgb.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/skimage/color/colorconv.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/sklearn/cluster/bicluster.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/sklearn/cluster/dbscan_.py" />
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/const.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/codecs.py" />
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/img/01-二叉搜索树.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/img/03-红黑树.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/avlTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/list/doubleLinkList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="132" column="30" lean-forward="true" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/list/singleLinkList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../07-二叉搜索树/02-二叉搜索树/com/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../07-二叉搜索树/01-二叉搜素树/com/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/visitor.py" />
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/bbst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="58" selection-start-line="10" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/set/listSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="45" selection-start-line="45" selection-end-line="48" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/binarySearchTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="170" column="22" lean-forward="true" selection-start-line="128" selection-start-column="8" selection-end-line="170" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/rbTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="120" selection-start-line="120" selection-end-line="208" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/README的副本.md" />
+    <entry file="file://$USER_HOME$/Desktop/iOS交接文档.md" />
+    <entry file="file://$PROJECT_DIR$/com/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/testModel.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/hashlib.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi" />
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/1033253702/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/binaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="329" selection-start-line="329" selection-end-line="367" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.7/operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1308">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.7/unittest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/1978755682/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/com/jqc/map/testModel/person.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="e#59#74#0" expanded="true" />
+            <marker date="1561422298429" expanded="true" signature="555:560" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/map/comparable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.7/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10170">
+          <caret line="691" selection-start-line="691" selection-end-line="691" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/map/testModel/subkey1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1561385990515" expanded="true" signature="42:47" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/map/testModel/subkey2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/map/testModel/key.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/map/linkHashMap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1561867908420" expanded="true" signature="152:302" ph="..." />
+            <marker date="1561867908420" expanded="true" signature="820:979" ph="..." />
+            <marker date="1561867908420" expanded="true" signature="979:2895" ph="..." />
+            <marker date="1561867908420" expanded="true" signature="1428:1437" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/set/set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/set/treeSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/set/hashSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="36" column="8" lean-forward="true" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1561875914696" expanded="true" signature="115:120" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/set/linkHashSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/map/treeMap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3965">
+          <caret line="265" selection-start-line="265" selection-end-line="277" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/map/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-end-line="26" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/map/hashMap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="86" column="27" lean-forward="true" selection-start-line="86" selection-end-line="87" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/heap/abstractHeap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1561876954881" expanded="true" signature="71:683" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/list/dynamicArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="90" selection-start-line="90" selection-end-line="103" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/heap/binaryHeap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <marker date="1561903637384" expanded="true" signature="614:623" ph="..." />
+            <marker date="1561903637384" expanded="true" signature="2336:3734" ph="..." />
+            <marker date="1561903637384" expanded="true" signature="5203:5208" ph="..." />
+            <marker date="1561903637384" expanded="true" signature="5232:5241" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1561903960766" expanded="true" signature="64:66" ph="..." />
+            <marker date="1561903960766" expanded="true" signature="282:432" ph="..." />
+            <marker date="1561903960766" expanded="true" signature="454:605" ph="..." />
+            <marker date="1561903960766" expanded="true" signature="602:605" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
