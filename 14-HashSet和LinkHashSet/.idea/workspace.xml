@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef09e1f-1188-410c-b9ca-67831802bcbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/jqc/heap/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jqc/heap/abstractHeap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jqc/heap/binaryHeap.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/com/jqc/set/hashSet.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/com/jqc/set/linkHashSet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -17,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/$link.coverage" NAME="link Coverage Results" MODIFIED="1561904005108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com" />
+    <SUITE FILE_PATH="coverage/$link.coverage" NAME="link Coverage Results" MODIFIED="1561876349295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -46,22 +43,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="10140" />
+          <entry key="py" value="6916" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="10140" />
+          <entry key="Python" value="6916" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="39" />
+          <entry key="py" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="39" />
+          <entry key="Python" value="31" />
         </counts>
       </usages-collector>
     </session>
@@ -71,53 +68,93 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+            <state relative-caret-position="194">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1561903960766" expanded="true" signature="64:66" ph="..." />
-                <marker date="1561903960766" expanded="true" signature="282:432" ph="..." />
-                <marker date="1561903960766" expanded="true" signature="454:605" ph="..." />
-                <marker date="1561903960766" expanded="true" signature="602:605" ph="..." />
+                <marker date="1561876329214" expanded="true" signature="223:614" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/jqc/heap/abstractHeap.py">
+        <entry file="file://$PROJECT_DIR$/com/jqc/set/linkHashSet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="150">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1561876954881" expanded="true" signature="71:683" ph="..." />
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/jqc/heap/binaryHeap.py">
+        <entry file="file://$PROJECT_DIR$/com/jqc/set/set.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/jqc/set/treeSet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/jqc/set/hashSet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="36" column="8" lean-forward="true" selection-end-line="38" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+                <marker date="1561875914696" expanded="true" signature="115:120" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/jqc/map/hashMap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+                <marker date="1561865363750" expanded="true" signature="4551:4574" ph="..." />
+                <marker date="1561865363750" expanded="true" signature="14034:14043" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/jqc/map/testModel/key.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-                <marker date="1561903637384" expanded="true" signature="614:623" ph="..." />
-                <marker date="1561903637384" expanded="true" signature="2336:3734" ph="..." />
-                <marker date="1561903637384" expanded="true" signature="5203:5208" ph="..." />
-                <marker date="1561903637384" expanded="true" signature="5232:5241" ph="..." />
-              </folding>
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/jqc/list/dynamicArray.py">
+        <entry file="file://$PROJECT_DIR$/com/jqc/map/map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="90" selection-start-line="90" selection-end-line="103" selection-end-column="34" />
+            <state relative-caret-position="27">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <element signature="e#15#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,6 +170,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>__node</find>
       <find>e1</find>
       <find>e2</find>
       <find>__get_index_with_node</find>
@@ -160,9 +198,8 @@
       <find>after_re</find>
       <find>create</find>
       <find>__rbtree</find>
-      <find>element</find>
       <find>remove</find>
-      <find>compare</find>
+      <find>element</find>
     </findStrings>
     <replaceStrings>
       <replace>_range_check</replace>
@@ -201,6 +238,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/com/jqc/main.py" />
+        <option value="$PROJECT_DIR$/com/jqc/link/lineList.py" />
         <option value="$PROJECT_DIR$/com/jqc/AbstractList.py" />
         <option value="$PROJECT_DIR$/com/jqc/abstractList.py" />
         <option value="$PROJECT_DIR$/com/jqc/link/linkList.py" />
@@ -248,10 +287,8 @@
         <option value="$PROJECT_DIR$/com/jqc/map/hashMap.py" />
         <option value="$PROJECT_DIR$/com/jqc/map/linkHashMap.py" />
         <option value="$PROJECT_DIR$/com/jqc/set/hashSet.py" />
-        <option value="$PROJECT_DIR$/com/jqc/set/linkHashSet.py" />
-        <option value="$PROJECT_DIR$/com/jqc/heap/abstractHeap.py" />
-        <option value="$PROJECT_DIR$/com/jqc/heap/binaryHeap.py" />
         <option value="$PROJECT_DIR$/com/main.py" />
+        <option value="$PROJECT_DIR$/com/jqc/set/linkHashSet.py" />
       </list>
     </option>
   </component>
@@ -299,21 +336,7 @@
               <item name="链表" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jqc" type="462c0819:PsiDirectoryNode" />
-              <item name="heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jqc" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jqc" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
+              <item name="set" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -503,11 +526,6 @@
           <line>233</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/com/jqc/heap/binaryHeap.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -516,6 +534,14 @@
     <SUITE FILE_PATH="coverage/$link.coverage" NAME="link Coverage Results" MODIFIED="1561109243913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/com/jqc/binaryTree/person.py" />
+    <entry file="file://$PROJECT_DIR$/com/jqc/list/abstractList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/collections/abc.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/asyncio/base_events.py" />
     <entry file="file://$PROJECT_DIR$/com/const.py">
@@ -632,6 +658,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/map/treeMap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2575">
+          <caret line="577" column="36" selection-start-line="577" selection-start-column="36" selection-end-line="577" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/1978755682/builtins.py" />
     <entry file="file://$PROJECT_DIR$/com/jqc/map/testModel/person.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -648,6 +684,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/list/dynamicArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="90" column="18" lean-forward="true" selection-start-line="90" selection-end-line="91" />
         </state>
       </provider>
     </entry>
@@ -672,6 +715,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/map/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -713,6 +766,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/com/jqc/map/hashMap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1561865363750" expanded="true" signature="4551:4574" ph="..." />
+            <marker date="1561865363750" expanded="true" signature="14034:14043" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/com/jqc/set/hashSet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -734,78 +799,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/map/treeMap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3965">
-          <caret line="265" selection-start-line="265" selection-end-line="277" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/map/map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-end-line="26" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/map/hashMap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="86" column="27" lean-forward="true" selection-start-line="86" selection-end-line="87" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/heap/abstractHeap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1561876954881" expanded="true" signature="71:683" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/list/dynamicArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="90" selection-start-line="90" selection-end-line="103" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jqc/heap/binaryHeap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <marker date="1561903637384" expanded="true" signature="614:623" ph="..." />
-            <marker date="1561903637384" expanded="true" signature="2336:3734" ph="..." />
-            <marker date="1561903637384" expanded="true" signature="5203:5208" ph="..." />
-            <marker date="1561903637384" expanded="true" signature="5232:5241" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        <state relative-caret-position="194">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1561903960766" expanded="true" signature="64:66" ph="..." />
-            <marker date="1561903960766" expanded="true" signature="282:432" ph="..." />
-            <marker date="1561903960766" expanded="true" signature="454:605" ph="..." />
-            <marker date="1561903960766" expanded="true" signature="602:605" ph="..." />
+            <marker date="1561876329214" expanded="true" signature="223:614" ph="..." />
           </folding>
         </state>
       </provider>
