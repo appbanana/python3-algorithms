@@ -1,5 +1,6 @@
 from com.jqc.trie.trie import Trie
 import unittest
+# import heapq
 
 if __name__ == '__main__':
     test = unittest.TestCase()

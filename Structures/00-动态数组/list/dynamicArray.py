@@ -53,6 +53,7 @@ class DynamicArray(object):
 		:return:
 		"""
 		self.__range_check_add(index)
+		# 添加size会增加1,所以直接判断size + 1和capacity比较
 		self.__ensure_capacity(self.__size + 1)
 		for i in range(self.__size - 1, index - 1, -1):
 			self.__elements[i + 1] = self.__elements[i]
