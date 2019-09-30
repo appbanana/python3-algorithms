@@ -1,7 +1,7 @@
 """
 双链表
 """
-from com.jqc.list.abstractList import AbstractList
+from com.jqc.linkList.abstractList import AbstractList
 
 
 class Node(object):

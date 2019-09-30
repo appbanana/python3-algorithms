@@ -1,4 +1,4 @@
-from .abstractList import AbstractList
+from com.jqc.linkList.abstractList import AbstractList
 
 
 class DynamicArray(AbstractList):

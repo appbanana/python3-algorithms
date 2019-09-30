@@ -7,7 +7,7 @@
 """
 单链表
 """
-from com.jqc.abstractList import AbstractList
+from com.jqc.linkList.abstractList import AbstractList
 
 
 class Node(object):
@@ -22,7 +22,7 @@ class Node(object):
 class SingleLinkList(AbstractList):
 	
 	def __init__(self):
-		super().__init__()
+		super(SingleLinkList, self).__init__()
 		self.__fist = None
 	
 	def __str__(self):
@@ -42,12 +42,13 @@ class SingleLinkList(AbstractList):
 	
 	def index_of(self, element):
 		"""
-		获取链表中某个元素的索引
+		返回element在链表中所对应的索引
 		:param element:
-		:return:
+		:return: 找到返回节点对应的索引; 未找到返回-1;
 		"""
 		node = self.__fist
-		for i in range(self._size):
+		# 遍历节点
+		for i in range(self.__size):
 			if node.element == element:
 				return i
 			node = node.next
@@ -69,10 +70,19 @@ class SingleLinkList(AbstractList):
 		:param element: 新元素
 		:return:
 		"""
+		# 找到当前节点
 		node = self.__node(index)
 		old_val = node.element
+		# 新值覆盖老值
 		node.element = element
 		return old_val
+	
+	def add(self, element):
+		"""
+		链表增加节点
+		:param element: 元素
+		"""
+		self.insert(self.__size, element)
 	
 	def insert(self, index, element):
 		"""
@@ -80,14 +90,17 @@ class SingleLinkList(AbstractList):
 		:param index: 索引
 		:param element: 元素
 		"""
-		self._range_check_add(index)
+		self.__range_check_add(index)
 		if index == 0:
+			# 首次添加 self.__fist 指向首结节点
 			self.__fist = Node(element, self.__fist)
 		else:
+			# 上一个节点
 			pre = self.__node(index - 1)
+			# 上一个节点的next指向新创建的节点
 			pre.next = Node(element, pre.next)
 		
-		self._size += 1
+		self.__size += 1
 	
 	def remove(self, index):
 		"""
@@ -95,15 +108,19 @@ class SingleLinkList(AbstractList):
 		:param index: 索引
 		:return: 返回删除节点的元素
 		"""
-		self._range_check(index)
+		self.__range_check(index)
 		node = self.__fist
 		if index == 0:
+			# 如果删除的首结点 需要特殊处理
 			self.__fist = node.next
 		else:
+			# 上一个节点
 			pre = self.__node(index - 1)
+			# 当前节点
 			node = pre.next
+			# 下一个节点
 			pre.next = node.next
-		self._size -= 1
+		self.__size -= 1
 		return node.element
 	
 	def __node(self, index):

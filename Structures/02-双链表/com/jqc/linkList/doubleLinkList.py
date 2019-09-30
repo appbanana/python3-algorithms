@@ -1,11 +1,18 @@
 """
 双链表
 """
-from com.jqc.list.abstractList import AbstractList
+from com.jqc.linkList.abstractList import AbstractList
+# from com.jqc.
 
 
 class Node(object):
 	def __init__(self, pre_node=None, element=None, next_node=None):
+		"""
+		初始化节点
+		:param pre_node: 上一个节点
+		:param element: 节点要存储的值
+		:param next_node: 下一个节点
+		"""
 		self.pre = pre_node
 		self.element = element
 		self.next = next_node
@@ -13,7 +20,7 @@ class Node(object):
 	def __str__(self):
 		"""
 		自定义字符串输出函数 方便自己查看双链表的前后节点
-		:return:
+		:return: size=8, [None_1_2,1_2_3,2_3_4,3_4_5,4_5_6,5_6_7,6_7_8,7_8_None]
 		"""
 		string = ''
 		string += 'None' if self.pre is None else str(self.pre.element)
@@ -28,8 +35,13 @@ class LinkList(AbstractList):
 	ELEMENT_NOT_FOUND = -1
 	
 	def __init__(self):
-		super().__init__()
+		"""
+		双链表初始化
+		"""
+		super(LinkList, self).__init__()
+		# 指向首结点
 		self.__fist = None
+		# 指向尾结点
 		self.__last = None
 	
 	def __str__(self):
@@ -74,8 +86,9 @@ class LinkList(AbstractList):
 				# 在尾部添加节点
 				old_last.next = self.__last
 		else:
-			# 插入某个位置
+			# 因为要插入index位置, index对应的节点就变成下一个节点
 			next_node = self.__node(index)
+			# 上一个节点
 			pre_node = next_node.pre
 			current = Node(pre_node, element, next_node)
 			next_node.pre = current
@@ -104,8 +117,10 @@ class LinkList(AbstractList):
 		:param element: 元素
 		:return: 返回原来的元素
 		"""
+		# 找到节点
 		node = self.__node(index)
 		old_val = node.element
+		# 新值覆盖旧值
 		node.element = element
 		return old_val
 	

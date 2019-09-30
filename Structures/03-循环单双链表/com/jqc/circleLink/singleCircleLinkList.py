@@ -7,7 +7,7 @@
 """
 循环单链表
 """
-from com.jqc.abstractList import AbstractList
+from com.jqc.linkList.abstractList import AbstractList
 
 
 class Node(object):
@@ -102,10 +102,14 @@ class SingleLinkList(AbstractList):
 		node = self.__fist
 		if index == 0:
 			if self._size == 1:
+				# 如果只有一个节点 直接将首结点置为空
 				self.__fist = None
 			else:
+				# 拿到最后一个节点
 				last_node = self.__node(self._size - 1)
+				# self.__fist指向原来第一个节点的next
 				self.__fist = node.next
+				# 更新最后一个节点的next
 				last_node.next = self.__fist
 		else:
 			pre = self.__node(index - 1)
