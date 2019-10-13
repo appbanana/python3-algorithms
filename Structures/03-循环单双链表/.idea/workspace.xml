@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ef09e1f-1188-410c-b9ca-67831802bcbe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-动态数组/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../00-动态数组/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-动态数组/.idea/test2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../00-动态数组/.idea/test2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-动态数组/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../00-动态数组/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-动态数组/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../00-动态数组/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-动态数组/list/dynamicArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/../00-动态数组/list/dynamicArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01-单链表/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-单链表/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01-单链表/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-单链表/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01-单链表/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-单链表/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01-单链表/.idea/链表.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-单链表/.idea/链表.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01-单链表/com/jqc/link/linkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/../01-单链表/com/jqc/link/linkList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-双链表/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-双链表/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-双链表/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-双链表/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-双链表/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-双链表/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-双链表/.idea/链表.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-双链表/.idea/链表.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-双链表/com/jqc/abstractList.py" beforeDir="false" afterPath="$PROJECT_DIR$/../02-双链表/com/jqc/linkList/abstractList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-双链表/com/jqc/dynamicArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/../02-双链表/com/jqc/dynamicArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-双链表/com/jqc/linkList/doubleLinkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/../02-双链表/com/jqc/linkList/doubleLinkList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-双链表/com/jqc/linkList/singleLinkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/../02-双链表/com/jqc/linkList/singleLinkList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/链表.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/链表.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/jqc/abstractList.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/linkList/abstractList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/jqc/circleLink/doubleCircleLinkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/circleLink/doubleCircleLinkList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/jqc/circleLink/singleCircleLinkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/circleLink/singleCircleLinkList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/jqc/dynamicArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/dynamicArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/jqc/linkList/doubleLinkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/linkList/doubleLinkList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/jqc/linkList/singleLinkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jqc/linkList/singleLinkList.py" afterDir="false" />
-    </list>
+    <list default="true" id="6ef09e1f-1188-410c-b9ca-67831802bcbe" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +15,7 @@
     <session id="-1840590793">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -188,7 +159,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="200" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
@@ -323,14 +294,14 @@
     <option name="totallyTimeSpent" value="28186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="23" width="1280" height="723" extended-state="1" />
+    <frame x="200" y="23" width="1280" height="723" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26494345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2836767" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2836767" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
